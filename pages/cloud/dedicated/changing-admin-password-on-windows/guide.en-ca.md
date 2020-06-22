@@ -27,7 +27,7 @@ First, boot your server into [rescue mode](https://docs.ovh.com/ca/en/dedicated/
 > For detailed information on how to use the IPMI feauture, please refer to our [IPMI guide](https://docs.ovh.com/ca/en/dedicated/use-ipmi-dedicated-servers/){.external}.
 >
 
-Next, activate the IPMI feature using either the Java applet or your browser. After the IPMI session has started, double-click the NTPWdi server tool on the WindRescue desktop.
+Next, activate the IPMI feature using either the Java applet or your browser. After the IPMI session has started, double-click the NTPWdi server tool on the WinRescue desktop.
 
 ![NTPWdi](images/ntpwdi-tool-01.png){.thumbnail}
 
