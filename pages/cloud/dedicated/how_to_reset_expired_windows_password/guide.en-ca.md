@@ -23,7 +23,7 @@ When you install or reinstall a Windows operating system, all account have a def
 
 ### Using the IPMI
 
-First, login to your server's page in your][OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}. Once there, select the `IPMI`{.action} tab.
+First, login to your server's page in your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}. Once there, select the `IPMI`{.action} tab.
 
 > [!primary]
 >
