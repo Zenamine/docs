@@ -54,7 +54,7 @@ Next, open the NTPWdi tool. If it does not appear there, you can download a copy
 
 Next, click the `Open`{.action} button to display a list of available user accounts.
 
-![NTPWedit}(images/ntpwedit-2.png){.thumbnail}
+![NTPWedit](images/ntpwedit-2.png){.thumbnail}
 
 Now select the admin account from the list and click the `Change Password`{.action} button.
 

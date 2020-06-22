@@ -54,7 +54,7 @@ Ensuite, ouvrez l'outil NTPWdi. S'il n'y apparaît pas, vous pouvez télécharge
 
 Cliquez ensuite sur le bouton "Open"{.action} pour afficher la liste des comptes d'utilisateurs disponibles.
 
-![NTPWedit}(images/ntpwedit-2.png){.thumbnail}
+![NTPWedit](images/ntpwedit-2.png){.thumbnail}
 
 Sélectionnez maintenant le compte d'administrateur dans la liste et cliquez sur le bouton "Change Passsword"{.action}.
 
