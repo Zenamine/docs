@@ -5,7 +5,7 @@ excerpt: This guide will show you how to change the admin password on a Windows 
 section: Server Management
 ---
 
-**Last updated 2018/06/21**
+**Last updated 2020/06/22**
 
 ## Objective
 
