@@ -1,8 +1,8 @@
 ---
-title: 'Réinitialisation d'un mot de passe Windows expiré'
-excerpt: 'Découvrez comment réinitialiser un mot de passe Windows expiré'.
+title: Réinitialisation d'un mot de passe Windows expiré
+excerpt: Découvrez comment réinitialiser un mot de passe Windows expiré.
 slug: reinitialiser-mot-passe-expire-windows
-section: 'Diagnostic et mode Rescue'
+section: Diagnostic et mode Rescue
 order: 5
 ---
 
