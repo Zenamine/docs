@@ -5,7 +5,7 @@ excerpt: 'Find out how to add and manage payment methods within the OVHcloud Con
 section: Billing
 ---
 
-**Last updated 7th May 2020**
+**Last updated 30th June 2020**
 
 ## Objective
 In the OVHcloud Control Panel, you can save and manage different payment methods.
