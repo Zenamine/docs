@@ -11,12 +11,12 @@ section: Billing
 In the OVHcloud Control Panel, you can save and manage different payment methods.
 
 ## Requirements
-- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager){.external}
+- access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/){.external}
 - a valid payment method
 
 ## Instructions
 
-Log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager){.external}, click your name in the top right-hand corner, then click `Payment method`{.action}.
+Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/){.external}, click your name in the top right-hand corner, then click `Payment method`{.action}.
 
 ![manage-payment-methods](images/hubpayment.png){.thumbnail}
 
@@ -46,18 +46,6 @@ To do this, simply click `Add a payment method`{.action}.
 
 Follow the the steps for saving a payment method. In the first step, you can set the new payment method as a ‘default payment method’, so that it is used for future orders and automatic payments.
 
-#### Adding a bank account
-
-If you are saving a new bank account, you will receive an email from our partner Yousign, allowing you to digitally sign your debit mandate.
-
-![manage-payment-methods](images/yousign.png){.thumbnail}
-
-> [!primary]
->
-As long as this authorisation is not signed and validated by you, the status “Validation in progress” will appear next to your bank account. While it has this status, it cannot be used as a payment method.
->
-
-
 ### Change your default payment method.
 
 Payments for your services’ renewal bills are always taken via your default payment method. If you would like to change it, you will need to add a new payment method in the OVHcloud Control Panel.
@@ -79,7 +67,7 @@ The default payment method cannot be deleted. If you would like to delete it, yo
 
 ### Delete a payment method via the OVHcloud API.
 
-You can delete a payment method via the API by connecting to [https://eu.api.ovh.com/](https://eu.api.ovh.com/){.external}.
+You can delete a payment method via the API by connecting to [https://api.ovh.com/](https://api.ovh.com/){.external}.
 
 Start by obtaining the payment method’s ID: 
 
