@@ -5,18 +5,18 @@ excerpt: 'Apprenez à ajouter et gérer vos moyens de paiement au sein de l’es
 section: Facturation
 ---
 
-**Dernière mise à jour le 07/05/2020**
+**Dernière mise à jour le 30/07/2020**
 
 ## Objectif
 L'espace client OVHcloud vous permet d'enregistrer et gérer différents moyens de paiement.
 
 ## Prérequis
-- Être connecté à [l'espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager){.external}.
+- Être connecté à [l'espace client OVHcloud](https://ca.ovh.com/auth/){.external}.
 - Disposer d'un moyen de paiement valide.
 
 ## En pratique
 
-Dans votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager){.external}, cliquez sur votre nom en haut à droite, puis sélectionnez `Moyen de paiement`{.action}.
+Dans votre [espace client OVHcloud](https://ca.ovh.com/auth/){.external}, cliquez sur votre nom en haut à droite, puis sélectionnez `Moyen de paiement`{.action}.
 
 ![manage-payment-methods](images/hubpayment.png){.thumbnail}
 
@@ -46,17 +46,6 @@ Pour cela, cliquez simplement sur le bouton `Ajouter un moyen de paiement`{.acti
 
 Suivez les étapes successives d'enregistrement du moyen de paiement. A la première étape, il vous sera proposé de définir ce nouveau moyen de paiement comme « moyen de paiement par défaut », afin qu'il soit utilisé pour vos futurs achats ou prélèvements automatiques.
 
-#### Ajout d'un compte bancaire
-
-En cas d'enregistrement d'un compte bancaire, vous recevrez un e-mail de notre partenaire Yousign, vous permettant de signer électroniquement votre mandat de prélèvement.
-
-![manage-payment-methods](images/yousign.png){.thumbnail}
-
-> [!primary]
->
-Tant que cette autorisation n'est pas signée et validée par vos soins, la mention « En cours de validation » sera indiquée à côté de votre compte bancaire, celui-ci ne pouvant alors être pris en compte pour vos paiements.
->
-
 ### Modifier votre moyen de paiement par défaut
 
 Les factures de renouvellement de vos services sont toujours prélevées sur votre moyen de paiement par défaut. Si vous souhaitez modifier celui-ci, il vous faut d'abord ajouter un nouveau moyen de paiement dans votre espace client.
@@ -78,7 +67,7 @@ Le moyen de paiement par défaut ne peut être supprimé. Si vous souhaitez le s
 
 ### Supprimer un moyen de paiement via les API OVHcloud
 
-La suppression d'un moyen de paiement peut être effectuée via les API en vous connectant sur [https://eu.api.ovh.com/](https://eu.api.ovh.com/){.external}.
+La suppression d'un moyen de paiement peut être effectuée via les API en vous connectant sur [https://api.ovh.com/](https://api.ovh.com/){.external}.
 
 Commencez par obtenir l'ID du moyen de paiement : 
 
