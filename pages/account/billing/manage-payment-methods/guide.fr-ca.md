@@ -37,7 +37,6 @@ Vous avez bien sûr la possibilité d'enregistrer de nouveaux moyens de paiement
 Il est possible d'enregistrer 3 types de moyens de paiement :
 
 - Carte bancaire
-- Compte bancaire
 - Compte PayPal
 
 Pour cela, cliquez simplement sur le bouton `Ajouter un moyen de paiement`{.action}.
