@@ -37,7 +37,6 @@ You can add new payment methods so that they are suggested during new orders, an
 You can save three different payment method types:
 
 - Payment card
-- Bank account
 - PayPal account 
 
 To do this, simply click `Add a payment method`{.action}.
