@@ -58,7 +58,7 @@ VAT is added at the bottom of the bill in the overall total, marked as “Total 
 
 To view your bills, go to the [OVH Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}, and open the `Billing`{.action} section by clicking on your first name in the top right-hand corner. You will then land on a page summarising your bills: 
 
-![Bill summary](images/billing_section_ca.png){.thumbnail}
+![Bill summary](images/billing-section_ca.png){.thumbnail}
 
 On this page, you will see the following information:
 
