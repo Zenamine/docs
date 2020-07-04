@@ -30,7 +30,7 @@ There are various stages in the OVH order process, and you can track them in the
 
 A purchase order is generated when you place an order. It lists the products ordered, their price, and any reductions or promo offers that have been applied.
 
-![OVHcloud purchase order](images/order_ovh.png){.thumbnail}
+![OVHcloud purchase order](images/order_ovh_ca.png){.thumbnail}
 
 |Number|Description|
 |---|---|
@@ -47,11 +47,11 @@ As a reminder, you can view your purchase order at any time in the [OVHcloud Con
 
 To access the area for managing orders, simply click on your first name in the top right-hand corner of the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}, then `My orders`{.action}.
 
-![Control Panel](images/customer_panel_order.png){.thumbnail}
+![Control Panel](images/customer_panel_order_ca.png){.thumbnail}
 
 You will then land on a summary page listing all of the non-expired orders placed via your OVH account.
 
-![Order summary](images/order_recap.png){.thumbnail}
+![Order summary](images/order_recap_ca.png){.thumbnail}
 
 
 On this page, you will see the following information:
@@ -72,7 +72,7 @@ The various order statuses are listed below:
 
 If you have a purchase order that is in the process of being delivered or awaiting payment, you can view it. To do this, click `...`{.action}, then `View order in HTML format`{.action}.
 
-![Order summary](images/html_order.png){.thumbnail}
+![Order summary](images/html_order_ca.png){.thumbnail}
 
 
 ### Apply the right of withdrawal.
