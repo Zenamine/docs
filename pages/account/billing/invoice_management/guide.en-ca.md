@@ -77,7 +77,7 @@ On this page, you will see the following information:
 
 If ‘Information not available’ appears, this means that the bill is not linked to an automatic renewal. You can view this information by clicking `...`{.action}. Three options will appear:
 
-![Actions for bills](images/action_choices_ca.png){.thumbnail}
+![Actions for bills](images/action-choices_ca.png){.thumbnail}
 
 - `See HTML version`{.action}. The bill will open in a new tab in your web browser.
 - `See PDF version`{.action}. A PDF file will be generated, which you can then download.
