@@ -110,11 +110,7 @@ Depending on your choice, you will be given information on future payment dates,
 
 #### **Renew the service.**
 
-This action is only applicable to services set to manual renewal, and it will redirect you to an online payment interface. You can renew these services at any time before their expiry, and choose their renewal duration. 
-
-#### **Anticipate payment.**
-
-This action is applicable to services set to automatic renewal, and it will redirect you to an online payment interface. You can renew these services at any time before their expiry, and choose their renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
+This action will redirect you to an online payment interface. You can renew these services at any time before their expiry, and choose their renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
 
 #### **Cancel on expiry.**
 
@@ -138,8 +134,6 @@ The table below details the group actions you can perform.
 |  Disable automatic payment |  Disable automatic payment for several services at once. If one or more of your services cannot be set to automatic renewal, this will be flagged when you confirm. |
 |  Enable automatic payment |  Enable automatic payment for several services at once. Only eligible services will be updated. |
 |  Export in CSV |  Create a file in the *.csv* format. |
-|  Align renewal dates |  Aligns the expiry dates for your services on a single calendar day. Only eligible services can be updated. |
-
 
 ## Go further
 
