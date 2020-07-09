@@ -5,7 +5,7 @@ excerpt: 'Find out how to manage automatic renewal for your services via the OVH
 section: 'Managing the renewal of services'
 ---
 
-**Last updated 10th June 2020**
+**Last updated 9th July 2020**
 
 ## Objective
 
@@ -110,7 +110,7 @@ Depending on your choice, you will be given information on future payment dates,
 
 #### **Renew the service.**
 
-This action will redirect you to an online payment interface. You can renew these services at any time before their expiry, and choose their renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
+This action will redirect you to an online payment interface. You can renew a services at any time before the expiry date, and choose the renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
 
 #### **Cancel on expiry.**
 
