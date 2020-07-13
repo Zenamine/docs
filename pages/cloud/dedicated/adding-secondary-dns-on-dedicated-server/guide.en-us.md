@@ -9,13 +9,13 @@ section: Network Management
 
 ## Objective
 
-If you want to use your [Dedicated Server](https://www.ovh.com/sg/dedicated-servers/){.external} as the primary DNS for your domain, you can add the domain as a secondary DNS to your server.
+If you want to use your [Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external} as the primary DNS for your domain, you can add the domain as a secondary DNS to your server.
 
 **This guide will show you how to create a secondary DNS, and add it to your Dedicated Server.**
 
 ## Requirements
 
-* a [Dedicated Server](https://www.ovh.com/sg/dedicated-servers/){.external} with Windows installed
+* a [Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external} with Windows installed
 * a domain name
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
