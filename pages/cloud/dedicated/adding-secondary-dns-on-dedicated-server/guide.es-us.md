@@ -9,28 +9,16 @@ section: 'Uso avanzado'
 
 ## Objetivo
 
-<<<<<<< HEAD
 Si quiere utilizar su [servidor dedicado](https://www.ovh.com/world/es/servidores_dedicados/){.external} como DNS principal para su dominio, puede añadir dicho dominio al servidor como DNS secundario.
 
 **Esta guía explica cómo crear un DNS secundario y añadirlo a un servidor dedicado de OVHcloud.**
-=======
-Si quiere utilizar su [servidor dedicado](https://www.ovh.es/servidores_dedicados/){.external} como DNS principal para su dominio, puede añadir dicho dominio al servidor como DNS secundario.
-
-**Esta guía explica cómo crear un DNS secundario y añadirlo a un servidor dedicado de OVH.**
->>>>>>> upstream/develop
 
 
 ## Requisitos
 
-<<<<<<< HEAD
 * Tener un [servidor dedicado](https://www.ovh.com/world/es/servidores_dedicados/){.external} con Windows instalado.
 * Disponer de un [dominio](https://www.ovh.com/world/es/dominios/){.external} y poder administrarlo desde el [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager){.external}.
 * Estar conectado al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager){.external}.
-=======
-* Tener un [servidor dedicado](https://www.ovh.es/servidores_dedicados/){.external} con Windows instalado.
-* Disponer de un [dominio](https://www.ovh.es/dominios/){.external} y poder administrarlo desde el [área de cliente de OVH](https://www.ovh.com/auth/?action=gotomanager){.external}.
-* Estar conectado al [área de cliente de OVH](https://www.ovh.com/auth/?action=gotomanager){.external}.
->>>>>>> upstream/develop
 
 
 ## Procedimiento
@@ -39,7 +27,6 @@ Si quiere utilizar su [servidor dedicado](https://www.ovh.es/servidores_dedicado
 
 En la sección `Dedicado`{.action} del área de cliente, haga clic en `Servidores dedicados`{.action} en la columna izquierda y seleccione el servidor dedicado.
 
-<<<<<<< HEAD
 ![DNS secundario](images/dns2-01_2020.png){.thumbnail}
 
 Abra la pestaña `DNS secundario`{.action} y haga clic en el botón `Añadir un dominio`{.action}.
@@ -53,30 +40,11 @@ Introduzca su dominio en el campo **Dominio** y haga clic en `Siguiente`{.action
 Aparecerá un mensaje informando de la necesidad de crear un registro de tipo TXT en la zona DNS del dominio. Anote el subdominio y el valor que se indican en el mensaje y haga clic en `Cancelar`{.action}.
 
 ![DNS secundario](images/dns2-04a_2020.png){.thumbnail}
-=======
-![DNS secundario](images/dns2-01.png){.thumbnail}
-
-Abra la pestaña `DNS secundario`{.action} y haga clic en el botón `Añadir un dominio`{.action}.
-
-![DNS secundario](images/dns2-02.png){.thumbnail}
-
-Introduzca su dominio en el campo **Dominio** y haga clic en `Siguiente`{.action}.
-
-![DNS secundario](images/dns2-03.png){.thumbnail}
-
-Aparecerá un mensaje informando de la necesidad de crear un registro de tipo TXT en la zona DNS del dominio. Anote el subdominio y el valor que se indican en el mensaje y haga clic en `Cancelar`{.action}.
-
-![DNS secundario](images/dns2-04a.png){.thumbnail}
->>>>>>> upstream/develop
 
 
 ### Verificar el dominio
 
-<<<<<<< HEAD
 En la sección `Web`{.action} del [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager){.external}, haga clic en `Dominios`{.action} en la columna izquierda y seleccione el dominio.
-=======
-En la sección `Web`{.action} del [área de cliente de OVH](https://www.ovh.com/auth/?action=gotomanager){.external}, haga clic en `Dominios`{.action} en la columna izquierda y seleccione el dominio.
->>>>>>> upstream/develop
 
 ![Verificación del dominio](images/domain-verification-01.png){.thumbnail}
 
@@ -105,7 +73,6 @@ Haga clic en `Aceptar`{.action} para añadir el registro.
 
 Repita los pasos realizados al principio de esta guía: vuelva a la sección `Dedicado`{.action}, haga clic en `Servidores dedicados`{.action} y seleccione de nuevo el servidor. Abra la pestaña `DNS secundario`{.action} y haga clic en el botón `Añadir un dominio`{.action}.
 
-<<<<<<< HEAD
 ![DNS secundario](images/dns2-02_2020.png){.thumbnail}
 
 Introduzca  su dominio en el campo **Dominio** y haga clic en `Siguiente`{.action}.
@@ -119,31 +86,10 @@ Como ya ha creado el registro TXT del dominio, haga clic directamente en `Siguie
 Por último, haga clic en `Añadir`{.action} para confirmar el registro.
 
 ![DNS secundario](images/dns2-05_2020.png){.thumbnail}
-=======
-![DNS secundario](images/dns2-02.png){.thumbnail}
-
-Introduzca  su dominio en el campo **Dominio** y haga clic en `Siguiente`{.action}.
-
-![DNS secundario](images/dns2-03.png){.thumbnail}
-
-Como ya ha creado el registro TXT del dominio, haga clic directamente en `Siguiente`{.action} para continuar.
-
-![DNS secundario](images/dns2-04b.png){.thumbnail}
-
-Por último, haga clic en `Añadir`{.action} para confirmar el registro.
-
-![DNS secundario](images/dns2-05.png){.thumbnail}
->>>>>>> upstream/develop
 
 
 ## Más información
 
-<<<<<<< HEAD
 [Editar una zona DNS de OVHcloud](../domains/web_hosting_como_editar_mi_zona_dns/){.external}
 
 Interactúe con nuestra comunidad de usuarios en [ovh.es/community](https://www.ovh.com/community/){.external}.
-=======
-[Editar una zona DNS de OVH](https://docs.ovh.com/es/domains/web_hosting_como_editar_mi_zona_dns/){.external}
-
-Interactúe con nuestra comunidad de usuarios en [ovh.es/community](https://www.ovh.es/community/){.external}.
->>>>>>> upstream/develop

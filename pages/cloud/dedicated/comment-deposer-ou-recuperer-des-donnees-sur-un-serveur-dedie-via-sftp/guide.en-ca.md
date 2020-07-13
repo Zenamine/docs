@@ -13,11 +13,7 @@ As part of a migration process, you may find that you need to retrieve data stor
 
 > [!warning]
 >
-<<<<<<< HEAD
 This tutorial will show you how to use one or more OVHcloud solutions with external tools, and the changes you need to make in specific contexts. You may need to adapt the instructions according to your situation. If you experience any difficulties carrying out these operations, please get in touch with a specialist service provider, and/or discuss your issues with our community on <https://community.ovh.com/en/>. OVHcloud cannot assist you in this regard.
-=======
-This tutorial will show you how to use one or more OVH solutions with external tools, and the changes you need to make in specific contexts. You may need to adapt the instructions according to your situation. If you experience any difficulties carrying out these operations, please get in touch with a specialist service provider, and/or discuss your issues with our community on <https://community.ovh.com/en/>. OVH cannot assist you in this regard.
->>>>>>> upstream/develop
 >
 
 
@@ -31,11 +27,7 @@ This tutorial will show you how to use one or more OVH solutions with external t
 
 ### What you need to have
 
-<<<<<<< HEAD
 *     at least one OVHcloud dedicated server
-=======
-*     at least one OVH dedicated server
->>>>>>> upstream/develop
 *     a software program that supports SFTP (this tutorial uses [FileZilla](https://filezilla-project.org/))
 
 ## Instructions
@@ -85,8 +77,4 @@ Once you have connected to the server you want to move your data onto, you can d
 
 Now you know how to move and retrieve data on a dedicated server via SFTP.
 
-<<<<<<< HEAD
 To go further, you can join our community of users on <https://community.ovh.com/en/>.
-=======
-To go further, you can join our community of users on <https://community.ovh.com/en/>.
->>>>>>> upstream/develop

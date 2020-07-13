@@ -13,11 +13,7 @@ Dans le cadre d'une migration, vous pouvez être amené à devoir récupérer le
 
 > [!warning]
 >
-<<<<<<< HEAD
 Ce tutoriel vous présente l’utilisation d’une ou de plusieurs solutions OVHcloud avec des outils externes et vous décrit des manipulations réalisées dans un contexte précis. Pensez à les adapter en fonction de votre situation ! Si vous rencontrez des difficultés lors de ces manipulations, nous vous invitons à faire appel à un prestataire spécialisé et/ou à poser vos questions à notre communauté sur <https://community.ovh.com/>. OVHcloud ne sera pas en mesure de vous fournir une assistance.
-=======
-Ce tutoriel vous présente l’utilisation d’une ou de plusieurs solutions OVH avec des outils externes et vous décrit des manipulations réalisées dans un contexte précis. Pensez à les adapter en fonction de votre situation ! Si vous rencontrez des difficultés lors de ces manipulations, nous vous invitons à faire appel à un prestataire spécialisé et/ou à poser vos questions à notre communauté sur <https://community.ovh.com/>. OVH ne sera pas en mesure de vous fournir une assistance.
->>>>>>> upstream/develop
 >
 
 
@@ -33,11 +29,7 @@ Ce tutoriel vous présente l’utilisation d’une ou de plusieurs solutions OVH
 
 ### Ce que vous devez avoir
 
-<<<<<<< HEAD
 *     Posséder au moins un serveur dédié OVHcloud.
-=======
-*     Posséder au moins un serveur dédié OVH.
->>>>>>> upstream/develop
 *     Disposer d'un logiciel supportant le SFTP (ce tutoriel emploiera le logiciel [FileZilla](https://filezilla-project.org/))
 
 
@@ -71,11 +63,7 @@ L'avancement du transfert est ensuite détaillé en bas de votre fenêtre FileZi
 
 #### Lorsque votre serveur est en mode rescue 
 
-<<<<<<< HEAD
 En mode rescue, il est d'abord nécessaire de monter votre partition. Pour ce faire, nous vous invitons à effectuer les manipulations décrites dans [ce guide](../ovh-rescue/).
-=======
-En mode rescue, il est d'abord nécessaire de monter votre partition. Pour ce faire, nous vous invitons à effectuer les manipulations décrites dans [ce guide](https://docs.ovh.com/fr/dedicated/ovh-rescue/).
->>>>>>> upstream/develop
 
 Une fois votre partition montée, connectez-vous de nouveau avec votre logiciel (ici FileZilla) sur le port 22.
 
@@ -101,8 +89,4 @@ Une fois connecté au serveur sur lequel vous souhaitez déposer des données, v
 
 Vous savez maintenant comment déposer ou récupérer des données sur un serveur dédié via SFTP.
 
-<<<<<<< HEAD
 Pour aller plus loin, n'hésitez pas à échanger avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
-=======
-Pour aller plus loin, n'hésitez pas à échanger avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
->>>>>>> upstream/develop
