@@ -5,11 +5,11 @@ excerpt: This guide will show you how to configure a block of public IP addresse
 section: Network Management
 ---
 
-**Last updated 24/08/2018**
+**Last updated 2018/08/24**
 
 ## Objective
 
-As well as private IP addressing, the [vRack](https://www.ovh.com.au/solutions/vrack/){.external} also allows you to route public IP traffic through your server's [vRack](https://www.ovh.com.au/solutions/vrack/){.external} port using a public IP address block.
+As well as private IP addressing, the [vRack](https://www.ovh.com/world/solutions/vrack/){.external} also allows you to route public IP traffic through your server's [vRack](https://www.ovh.com/world/solutions/vrack/){.external} port using a public IP address block.
 
 **This guide will show you how to configure a block of public IP addresses for use with the vRack.**
 
@@ -17,9 +17,9 @@ As well as private IP addressing, the [vRack](https://www.ovh.com.au/solutions/v
 
 * a public block of IP addresses in your account, with a minimum of four addresses
 * your chosen private IP address range
-* a [vRack compatible server](https://www.ovh.com.au/dedicated-servers/){.external}
-* a [vRack](https://www.ovh.com.au/solutions/vrack/){.external} service activated in your account
-* access to the OVHcloud [Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
+* a [vRack compatible server](https://www.ovh.com/world/solutions/vrack/){.external}
+* a [vRack](https://www.ovh.com/world/solutions/vrack/){.external} service activated in your account
+* access to the OVHcloud[Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
 ## Instructions
 
