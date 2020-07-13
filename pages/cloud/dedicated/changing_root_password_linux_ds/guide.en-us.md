@@ -15,7 +15,7 @@ When you install or reinstall a distribution or operating system, you are given 
 
 ## Requirements
 
-* a [dedicated server](https://www.ovh.com/asia/dedicated-servers/){.external}
+* a [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external}
 * administrative (root) access to the server via SSH
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
