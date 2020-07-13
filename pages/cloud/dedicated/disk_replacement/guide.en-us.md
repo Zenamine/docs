@@ -5,8 +5,7 @@ excerpt: Find out how to identify a defective disk, and request a replacement
 section: Server Management
 ---
 
-**Last updated 21/06/2018**
-
+**Last updated 2018/06/21**
 
 ## Objective
 
@@ -24,7 +23,7 @@ If you notice that a disk is faulty, or receive a notification email about a fau
 
 ## Requirements
 
-- a [Dedicated Server](https://www.ovh.com.au/dedicated-servers/){.external}
+- a [Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external}
 - administrative (root) access to the server via SSH
 
 ## Instructions
@@ -123,7 +122,7 @@ You will need to specify the RAID number (/dev/sg0 = 1er RAID, /dev/sg1 = 2e RAI
 
 #### Servers with NVMe disks
 
-If you have an NVMe disk, you will need to put the server into [rescue mode](../ovh-rescue/){.external}, on which the **nvme-cli** tool is installed by default.
+If you have an NVMe disk, you will need to put the server into [rescue mode](../rescue-mode/){.external}, on which the **nvme-cli** tool is installed by default.
 
 You will then need to use the `nvme list` command, and retrieve your disks’ serial numbers:
 
@@ -155,7 +154,7 @@ As a reminder, it’s important to include the serial numbers of all the disks. 
 
 > [!primary]
 >
-> This replacement type is only possible for [Big-HG](https://www.ovh.com.au/dedicated-servers/hg/){.external} servers that have a RAID card.
+> This replacement type is only possible for [Big-HG](https://www.ovh.com/world/dedicated-servers/hg){.external} servers that have a RAID card.
 > 
 
 If you are hot-swapping a disk on a server with a megaRAID card, please make the LED light flash for the disk that needs to be replaced, once the intervention has been scheduled. This will make the process easier for the teams who are working on the replacement operation.

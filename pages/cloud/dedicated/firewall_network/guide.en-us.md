@@ -15,7 +15,7 @@ To protect its global infrastructure and its customers’ servers, OVHcloud offe
 
 > [!primary]
 >
-> VAC: More information on VAC, our protection system against DDoS attacks, here: <https://www.ovh.com/ca/en/anti-ddos/>.
+> VAC: More information on VAC, our protection system against DDoS attacks, here: <https://www.ovh.com/world/anti-ddos/>.
 > 
 
 ![VAC in detail](images/vac-inside.png){.thumbnail}
@@ -23,7 +23,7 @@ To protect its global infrastructure and its customers’ servers, OVHcloud offe
 
 ## Requirements
 
-- You must have an OVHcloud service with a Firewall Network ([Dedicated Server](https://www.ovh.com/ca/en/dedicated-servers/){.external}, [VPS](https://www.ovh.com/ca/en/vps/){.external}, [Public Cloud instance](https://www.ovh.com/ca/en/public-cloud/instances/){.external}, [Private Cloud](https://www.ovh.com/ca/en/private-cloud/){.external},  [Failover IP](https://www.ovh.com/ca/en/dedicated-servers/ip_failover.xml){.external}, etc.)
+- You must have an OVHcloud service with a Firewall Network ([Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external}, [VPS](https://www.ovh.com/world/vps/){.external}, [Public Cloud instance](https://www.ovh.com/world/public-cloud/instances/){.external}, [Private Cloud](https://www.ovh.com/world/private-cloud/){.external},  [Failover IP](https://www.ovh.com/world/dedicated-servers/ip_failover.xml){.external}, etc.)
 - You must have access to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 - You must have basic network skills
 
