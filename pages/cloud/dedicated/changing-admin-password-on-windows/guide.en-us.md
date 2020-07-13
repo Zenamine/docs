@@ -15,7 +15,7 @@ When you install or reinstall a Windows operating system, you are given an admin
 
 ## Requirements
 
-* a [Dedicated Server](https://www.ovh.com/asia/dedicated-servers/){.external} with Windows installed
+* a [Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external} with Windows installed
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
 ## Instructions
