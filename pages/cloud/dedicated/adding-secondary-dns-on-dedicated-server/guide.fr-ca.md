@@ -16,9 +16,15 @@ Si vous souhaitez utiliser votre [serveur dédié](https://www.ovh.com/fr/serveu
 
 ## Prérequis
 
+<<<<<<< HEAD
 * Disposer d'un [serveur dédié](https://www.ovh.com/ca/fr/serveurs_dedies/){.external} avec Windows installé.
 * Disposer d'un [nom de domaine](https://www.ovh.com/ca/fr/domaines/){.external} et pouvoir le gérer dans votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager){.external}
 * Être connecté à l’[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager){.external}.
+=======
+* Disposer d'un [serveur dédié](https://www.ovh.com/fr/serveurs_dedies/){.external} avec Windows installé.
+* Disposer d'un [nom de domaine](https://www.ovh.com/fr/domaines/){.external} et pouvoir le gérer dans votre [espace client OVH](https://www.ovh.com/auth/?action=gotomanager){.external}
+* Être connecté à l’[espace client OVH](https://www.ovh.com/auth/?action=gotomanager){.external}.
+>>>>>>> upstream/develop
 
 
 ## En pratique
@@ -27,6 +33,7 @@ Si vous souhaitez utiliser votre [serveur dédié](https://www.ovh.com/fr/serveu
 
 Cliquez sur le menu `Dédié`{.action}, puis sur `Serveurs Dédiés`{.action} dans la barre de menus à gauche de votre écran pour montrer la liste déroulante des serveurs de votre compte :
 
+<<<<<<< HEAD
 ![DNS Secondaire](images/dns2-01_2020.png){.thumbnail}
 
 Sélectionnez ensuite l'onglet `DNS Secondaire`{.action} et cliquez sur `Ajouter un domaine`{.action} :
@@ -40,11 +47,30 @@ Entrez votre nom de domaine dans le champ `Domaine`, puis cliquez sur `Suivant`{
 Un message vous confirmant l'enregistrement de type TXT pour votre domaine apparaîtra. Prenez note du sous-domaine et de la cible dans les instructions, puis cliquez sur `Annuler`{.action} :
 
 ![DNS Secondaire](images/dns2-04a_2020.png){.thumbnail}
+=======
+![DNS Secondaire](images/dns2-01.png){.thumbnail}
+
+Sélectionnez ensuite l'onglet `DNS Secondaire`{.action} et cliquez sur `Ajouter un domaine`{.action} :
+
+![DNS Secondaire](images/dns2-02.png){.thumbnail}
+
+Entrez votre nom de domaine dans le champ `Domaine`, puis cliquez sur `Suivant`{.action} :
+
+![DNS Secondaire](images/dns2-03.png){.thumbnail}
+
+Un message vous confirmant l'enregistrement de type TXT pour votre domaine apparaîtra. Prenez note du sous-domaine et de la cible dans les instructions, puis cliquez sur `Annuler`{.action} :
+
+![DNS Secondaire](images/dns2-04a.png){.thumbnail}
+>>>>>>> upstream/develop
 
 
 ### Procéder à la vérification du nom de domaine
 
+<<<<<<< HEAD
 Une fois connecté à l'[espace client OVH](https://ca.ovh.com/auth/?action=gotomanager){.external}, cliquez sur le menu `Web`{.action}, puis dans la section `Domaines`{.action} dans la colonne de gauche afin de faire apparaître tous les domaines que vous gérez :
+=======
+Une fois connecté à l'[espace client OVH](https://www.ovh.com/auth/?action=gotomanager){.external}, cliquez sur le menu `Web`{.action}, puis dans la section `Domaines`{.action} dans la colonne de gauche afin de faire apparaître tous les domaines que vous gérez :
+>>>>>>> upstream/develop
 
 ![Vérification de domaine](images/domain-verification-01.png){.thumbnail}
 
@@ -73,6 +99,7 @@ Confirmez enfin votre entrée en cliquant sur le bouton `Confirmer`{.action} :
 
 Revenez dans le menu `Dédié`{.action}, puis sur `Serveurs Dédiés`{.action} et `DNS Secondaire`{.action}, comme pour la première étape. Cliquez sur `Ajouter un domaine`{.action} :
 
+<<<<<<< HEAD
 ![DNS Secondaire](images/dns2-02_2020.png){.thumbnail}
 
 Entrez votre nom domaine dans le champ `Domaine`, puis cliquez sur `Suivant`{.action} :
@@ -86,10 +113,31 @@ Comme que l'enregistrement TXT de votre domaine a déjà été créé, cliquez s
 Pour finir, cliquez sur `Ajouter`{.action} pour confirmer votre entrée :
 
 ![DNS Secondaire](images/dns2-05_2020.png){.thumbnail}
+=======
+![DNS Secondaire](images/dns2-02.png){.thumbnail}
+
+Entrez votre nom domaine dans le champ `Domaine`, puis cliquez sur `Suivant`{.action} :
+
+![DNS Secondaire](images/dns2-03.png){.thumbnail}
+
+Comme que l'enregistrement TXT de votre domaine a déjà été créé, cliquez simplement sur `Suivant`{.action} pour continuer :
+
+![DNS Secondaire](images/dns2-04b.png){.thumbnail}
+
+Pour finir, cliquez sur `Ajouter`{.action} pour confirmer votre entrée :
+
+![DNS Secondaire](images/dns2-05.png){.thumbnail}
+>>>>>>> upstream/develop
 
 
 ## Aller plus loin
 
+<<<<<<< HEAD
 [Éditer une zone DNS OVH](../domains/editer-ma-zone-dns/){.external}
 
 Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+=======
+[Éditer une zone DNS OVH](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external}
+
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+>>>>>>> upstream/develop

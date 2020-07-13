@@ -176,4 +176,8 @@ If you have copied the full output, the identifier after the key should already 
 
 ## Go further
 
+<<<<<<< HEAD
 Join our community of users on <https://community.ovh.com/en/>.
+=======
+Join our community of users on <https://community.ovh.com/en/>.
+>>>>>>> upstream/develop
