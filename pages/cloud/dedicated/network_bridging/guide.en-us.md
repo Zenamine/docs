@@ -5,7 +5,7 @@ excerpt: 'This guide will show you how to use network bridging to configure inte
 section: 'Network Management'
 ---
 
-**Last updated 4th March 2019**
+**Last updated 2019/04/03**
 
 ## Objective
 
@@ -18,7 +18,7 @@ Bridged networking can be used to configure your virtual machines. Some tweaking
 ## Requirements
 
 * a Dedicated Server with a hypervisor installed (e.g. [VMware ESXi](http://www.vmware.com/products/esxi-and-esx/overview.html){.external}, Citrix Xen Server, Proxmox, etc.)
-* at least one [failover IP](https://www.ovh.com/sg/dedicated-servers/ip_failover.xml) address attached to the server
+* at least one [failover IP](https://www.ovh.com/world/dedicated-servers/ip_failover.xml) address attached to the server
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
 ## Instructions
