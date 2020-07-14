@@ -5,7 +5,7 @@ excerpt: 'Find out how to manage automatic renewal for your services via the OVH
 section: 'Managing the renewal of services'
 ---
 
-**Last updated 9th July 2020**
+**Last updated 14th July 2020**
 
 ## Objective
 
