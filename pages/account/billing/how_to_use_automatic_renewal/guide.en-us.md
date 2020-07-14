@@ -81,8 +81,6 @@ If you select this mode, you will receive several reminder emails before the exp
 >
 >If you do not pay for a service in manual renewal, it is suspended on its expiry date, then deleted after a few days.
 >
->However, if you do not want to keep this service, you will not need to request cancellation.
->
 
 
 ### Manage renewal for your services.
