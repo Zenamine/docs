@@ -15,7 +15,7 @@ Please note that for some environments, the KVM won’t provide any useful infor
 
 ## Requirements
 
-- You must have access to a VPS or a Public Cloud instance in [rescue mode](https://docs.ovh.com/ca/en/vps/rescue/){.external}
+- You must have access to a VPS or a Public Cloud instance in [rescue mode](https://docs.ovh.com/en/us/vps/rescue/){.external}
 
 
 ## Instructions
