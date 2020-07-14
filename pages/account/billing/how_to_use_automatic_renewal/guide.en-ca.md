@@ -108,11 +108,11 @@ Depending on the service you have chosen, you can set it to manual renewal, or c
 
 Depending on your choice, you will be given information on future payment dates, the payment method that will be used, and the service’s expiry date.
 
-#### **Renew the service.**
+#### **Bring forward payment.**
 
 This action will redirect you to an online payment interface. You can renew a services at any time before the expiry date, and choose the renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
 
-#### **Cancel on expiry.**
+#### **Terminate on expiry date.**
 
 This action is available for services set to automatic renewal. By choosing this action, automatic payments and renewals are disabled for the service you have selected.
 
