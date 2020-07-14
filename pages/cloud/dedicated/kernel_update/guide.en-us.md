@@ -1,21 +1,21 @@
 ---
 title: 'Updating the kernel on a dedicated server'
 slug: updating-kernel-dedicated-server
-excerpt: 'Find out how to update the kernel for distributions that use an OVHcloud core'
+excerpt: 'Find out how to update the kernel for distributions that use an OVH core'
 section: 'Advanced use'
 ---
 
-**Last updated 07/08/2018**
+**Last updated 2018/07/08**
 
 ## Objective
 
-[OVHcloud Dedicated Servers](https://www.ovh.com/sg/dedicated-servers/){.external} are easily able to boot into a Linux operating system using an updated kernel with the netboot startup system. However, it's best practice to update the kernel on the local machine.
+[OVHcloud Dedicated Servers](https://www.ovh.com/world/dedicated-servers/){.external} are easily able to boot into a Linux operating system using an updated kernel with the netboot startup system. However, it's best practice to update the kernel on the local machine.
 
 **This guide will show you how to update the kernel for distributions that use an OVHcloud core.**
 
 > [!warning]
 >
-> By default, all system snapshots offered on [OVHcloud Dedicated Servers](https://www.ovh.com/sg/dedicated-servers/){.external} use an optimised OVH core. If you have replaced these snapshots with your own distribution, please refer to your distribution’s official documentation.
+> By default, all system snapshots offered on [OVHcloud Dedicated Servers](https://www.ovh.com/world/dedicated-servers/){.external} use an optimised OVHcloud core. If you have replaced these snapshots with your own distribution, please refer to your distribution’s official documentation.
 >
 
 > [!primary]
@@ -27,7 +27,7 @@ section: 'Advanced use'
 
 ## Requirements
 
-- an [OVHcloud Dedicated Server](https://www.ovh.com/sg/dedicated-servers/){.external}
+- an [OVHcloud Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external}
 - root access to the server via SSH
 - a backup of your data (see the official documentation for your distribution)
 
@@ -52,7 +52,7 @@ uname -r
 In this case, the kernel version is  **4.09.76-xxxx-std-ipv6-64**.
 
 
-### Update the kernel using OVH packages
+### Update the kernel using OVHcloud packages
 
 On Debian-based and RedHat-based distributions, the kernel is installed using the package manager.
 
@@ -79,7 +79,7 @@ reboot
 ```
 
 
-### Update the kernel without using OVHcloud  packages
+### Update the kernel without using OVHcloud packages
 
 #### Step 1: Navigate to the correct directory
 
@@ -135,7 +135,7 @@ reboot
 
 ### Rollback
 
-In the event that you make a mistake or receive an error, it's possible to rollback your changes. To do so, the server must be placed in [Rescue mode](../ovh-rescue/){.external}. This will require you to mount your system using the following commands:
+In the event that you make a mistake or receive an error, it's possible to rollback your changes. To do so, the server must be placed in [Rescue mode](../rescue-mode/){.external}. This will require you to mount your system using the following commands:
 
 ```sh
 mount /dev/md1 /mnt
@@ -201,10 +201,10 @@ uname -r
 
 ## Go further
 
-[Rescue Mode](../ovh-rescue/){.external}.
+[Rescue Mode](../rescue-mode/){.external}.
 
 [Information on Meltdown and Spectre  vulnerabilities](../information-about-meltdown-spectre-vulnerability-fixes/){.external}.
 
-[Update following Meltdown and Spectrum vulnerabilities by operating system](../meltdown-spectre-kernel-update-per-operating-system/){.external}.
+[Update following Meltdown and Spectrum vulnerabilities by operating system]../meltdown-spectre-kernel-update-per-operating-system/){.external}.
 
 Join our user community on  <https://community.ovh.com/en/>
