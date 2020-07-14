@@ -5,7 +5,7 @@ excerpt: This guide will show you how to diagnose hardware issues on your server
 section: Security
 ---
 
-**Last updated 21/06/2018**
+**Last updated 2018/06/21**
 
 ## Objective
 
@@ -16,8 +16,9 @@ At some point during the life of your server, you may encounter a fault due to a
 
 ## Requirements
 
-* a [dedicated server](https://www.ovh.com.au/dedicated-servers/){.external}
-* [rescue mode activated](../ovh-rescue/){.external}
+* a [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external}
+* [rescue mode activated](../rescue-mode/){.external}
+
 
 ## Instructions
 
