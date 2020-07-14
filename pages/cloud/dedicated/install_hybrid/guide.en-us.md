@@ -9,13 +9,13 @@ section: 'Advanced use'
 
 ## Objective
 
-OVHcloud offers some [Dedicated Servers](https://www.ovh.com/ca/en/dedicated-servers/){.external} that have one SATA disk group, and one SSD disk group. We call these "Hybrid Servers".
+OVHcloud offers some [Dedicated Servers](https://www.ovh.com/world/dedicated-servers/){.external} that have one SATA disk group, and one SSD disk group. We call these "Hybrid Servers".
 
 **This guide will show you how to specify the disk group on which to install the server's operating system.**
 
 ## Requirements
 
-* an [OVHcloud Hybrid Server](https://www.ovh.com/ca/en/dedicated-servers/){.external}
+* an [OVHcloud Hybrid Server](https://www.ovh.com/world/dedicated-servers/){.external}
 * access to the [OVHcloud API](https://ca.api.ovh.com/console/){.external}
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
