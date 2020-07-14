@@ -5,7 +5,7 @@ excerpt: This guide will show you how to create a virtual MAC address and assign
 section: Network Management
 ---
 
-**Last updated 21st June 2018**
+**Last updated 2018/06/21**
 
 ## Objective
 
@@ -15,8 +15,8 @@ OVHcloud allows you to associate a virtual MAC address with an IP address, so th
 
 ## Requirements
 
-* a [Dedicated Server](https://www.ovh.com/asia/dedicated-servers/){.external}
-* a [failover IP address](https://www.ovh.com/asia/dedicated-servers/ip_failover.xml){.external} or a failover IP block (RIPE)
+* a [Dedicated Server](https://www.ovh.com/world/dedicated-servers/){.external}
+* a [failover IP address](https://www.ovh.com/world/dedicated-servers/ip_failover.xml){.external} or a failover IP block (RIPE)
 * access to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
 
