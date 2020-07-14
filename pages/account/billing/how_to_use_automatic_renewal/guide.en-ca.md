@@ -106,7 +106,7 @@ Depending on your choice, you will be given information on future payment dates,
 
 #### **Bring forward payment.**
 
-This action will redirect you to an online payment interface. You can renew a services at any time before the expiry date, and choose the renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
+This action will redirect you to an online payment interface. You can renew a service at any time before the expiry date, and choose the renewal duration. In this case, the duration of validity you subscribe to will be added to the current validity duration. You will not lose any remaining validity time.
 
 #### **Terminate on expiry date.**
 
