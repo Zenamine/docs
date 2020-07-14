@@ -9,7 +9,7 @@ section: Diagnostic and rescue mode
 
 ## Objective
 
-In rescue mode, you can reboot your server on an independent OVH configuration. Your disk can then be mounted like an independent partition.
+In rescue mode, you can reboot your server on an independent OVHcloud configuration. Your disk can then be mounted like an independent partition.
 
 The advantage of this is that you can carry out tests and make configuration changes when it is most convenient for you, and when it will have the least impact on the operations performed by your server. This also allows you to correct any configuration errors made, which prevented you from accessing the server from the drive.
 
@@ -27,15 +27,15 @@ This guide will show you how to reboot your VPS in rescue mode.
 
 ## Instructions
 
-Once you have logged in to your Control Panel, go to the `Cloud`{.action} section, then to `Servers`{.action} in the left-hand column. Choose your VPS in the left-hand column:
+Once you have logged in to your Control Panel, click to the Servers tab, then in the left-hand column choose your VPS.
 
 ![VPS area in the Control Panel](images/vps_rescue1.png){.thumbnail}
 
-On the main screen of your VPS, click on the `Reboot in rescue mode`{.action} button and confirm that you wish to reboot it:
+On the main screen of your VPS, under shortcut, click on the `···` button beside boot and select Reboot in rescue mode that you wish to reboot it:
 
 ![Confirm rescue mode](images/vps_rescue2.png){.thumbnail}
 
-A progress bar will show how the reboot task is progressing (this can take several minutes):
+The reboot can take several minutes:
 
 ![Rescue mode progress](images/rescue_task.png){.thumbnail}
 
