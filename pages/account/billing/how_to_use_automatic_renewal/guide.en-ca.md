@@ -71,8 +71,6 @@ If you have not registered any payment methods, you will be sent a bill via emai
 
 For services with an automatic renewal frequency higher than 1 month (3 months, 6 months, 12 months), you will also be sent an email reminder the month before, listing the services that will need to be renewed soon.
 
-If you do not want to renew a service, simply cancel it via the OVHcloud Control Panel.
-
 #### **Manual renewal.**
 
 For some OVHcloud products (domains, web hosting plans, VPS, dedicated servers), you can switch to **manual renewal**. This renewal mode is useful if you are not sure whether you want to keep the service until its expiry date, or if you do not want payments to be taken automatically via your payment method. 
