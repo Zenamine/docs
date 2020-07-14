@@ -24,7 +24,7 @@ If your VPS is working normally, go directly to step 4.
 
 > [!warning]
 >
-> These modifications will change the GRUB configuration. Be sure to perform backups before making any modifications. OVH cannot be held responsible for damage or loss of data following these operations.
+> These modifications will change the GRUB configuration. Be sure to perform backups before making any modifications. OVHcloud cannot be held responsible for damage or loss of data following these operations.
 >
 
 
