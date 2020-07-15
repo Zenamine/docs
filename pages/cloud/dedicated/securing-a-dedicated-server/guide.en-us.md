@@ -23,7 +23,7 @@ When you order your dedicated server, no security protocols are implemented nati
 
 ## Requirements
 
-* a [dedicated server](https://www.ovh.com/sg/dedicated-servers/){.external}
+* a [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external}
 * a SSH access as administrative (root)
 
 ## Instructions

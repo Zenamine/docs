@@ -15,7 +15,7 @@ OVHcloud provides 500 GB of free backup storage space with each Dedicated Server
 
 ## Requirements
 
-* Access to a [dedicated server](https://www.ovh.com/ca/en/dedicated-servers/){.external}
+* Access to a [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external}
 * Access to your [OVHcloud control panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
 
 ## Instructions
