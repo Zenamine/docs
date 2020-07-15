@@ -6,7 +6,7 @@ section: 'Network Management'
 order: 1
 ---
 
-**Last updated 12th March 2020**
+**Last updated 2020/03/12**
 
 ## Objective
 
