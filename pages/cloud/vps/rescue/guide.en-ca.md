@@ -44,8 +44,7 @@ The reboot can take several minutes.
 ![Service emails area in the Control Panel](images/service_emails.png){.thumbnail}
 
 
-You can now connect via SSH to your VPS in rescue mode. Once these changes have been completed with rescue mode, you can reboot the VPS on your main hard drive by pressing the `Reboot my VPS`{.action} button.
-
+You can now connect via SSH to your VPS in rescue mode. To switch back to normal mode, simply reboot your VPS by clicking on boot `···`{.action} button and select `Reboot my VPS`.
 
 ## Go further
 
