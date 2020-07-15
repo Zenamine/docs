@@ -194,7 +194,7 @@ It is recommended that you create and adjust rules on this firewall, to fit your
 
 OVHcloud solutions include a firewall at the entrance to the infrastructure, called the Firewall Network. Its implementation and configuration allow protocols to be blocked before they even arrive on your server.
 
-We also have a guide on [configuring this firewall network](https://docs.ovh.com/us/en/dedicated/firewall-network/){.external}.
+We also have a guide on [configuring this firewall network](https://docs.ovh.com/ca/en/dedicated/firewall-network/){.external}.
 
 ### Backing up your system and your data
 
@@ -206,10 +206,10 @@ Securing your data is a key element, which is why OVHcloud offers you three back
 - The `Automated Backup` option allows you to make a regular backup of your VPS (excluding additional disks) on a daily basis, exported and replicated three times before being available from your Control Panel (available only on Cloud VPS and Cloud RAM VPS);
 - The `Backup Storage` option that allows you to manually deposit and recover files on a dedicated disk space. The available file transfer protocols are FTP, NFS and CIFS, to ensure compatibility with the file access methods of all operating systems and distributions used. This allows you to keep your data safe in case of service interruption (only available on Cloud VPS and Cloud RAM VPS).
 
-You will find all information on our VPS backup solutions here: <https://www.ovh.com.au/vps/backup-vps.xml>.
+You will find all information on our VPS backup solutions here: <https://www.ovhcloud.com/en-ca/vps/options/>.
 
 ## Go further
 
-[Firewall Network Guide](https://docs.ovh.com/us/en/dedicated/firewall-network/){.external}/
+[Firewall Network Guide](https://docs.ovh.com/ca/en/dedicated/firewall-network/){.external}/
 
 Join our user community on <https://community.ovh.com/en/>.
