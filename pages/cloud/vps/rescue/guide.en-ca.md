@@ -31,17 +31,15 @@ Once you have logged in to your Control Panel, click to the Server tab, then in 
 
 ![VPS area in the Control Panel](images/vps_rescue6.png){.thumbnail}
 
-On the main screen of your VPS, under shortcut, click on the `···`{.action} button beside boot and select `Reboot in rescue mode`{.action}.
+On the main screen of your VPS, under Your VPS, click on boot `···`{.action} button and select `Reboot in rescue mode`{.action}.
 
 ![Confirm rescue mode](images/vps_rescue7.png){.thumbnail}
 
-The reboot can take several minutes:
-
-![Rescue mode progress](images/rescue_task.png){.thumbnail}
+The reboot can take several minutes.
 
 > [!primary]
 >
-> Once you have completed this step, you will receive an automated email with the SSH credentials for rescue mode. This email is also available on your Control Panel, in the `My account`{.action} section, then `Emails received`{.action}.
+> Once you have completed this step, you will receive an automated email with the SSH credentials for rescue mode. This email is also available on your Control Panel, in the `Service emails`{.action} section.
 > 
 
 You can now connect via SSH to your VPS in rescue mode. Once these changes have been completed with rescue mode, you can reboot the VPS on your main hard drive by pressing the `Reboot my VPS`{.action} button.
