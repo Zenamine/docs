@@ -41,6 +41,8 @@ The reboot can take several minutes.
 >
 > Once you have completed this step, you will receive an automated email with the SSH credentials for rescue mode. This email is also available on your Control Panel, in the `Service emails`{.action} section.
 > 
+![Service emails area in the Control Panel](images/service emails.png){.thumbnail}
+
 
 You can now connect via SSH to your VPS in rescue mode. Once these changes have been completed with rescue mode, you can reboot the VPS on your main hard drive by pressing the `Reboot my VPS`{.action} button.
 
