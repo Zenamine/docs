@@ -5,7 +5,7 @@ excerpt: 'This guide will show you how to verify the state of your RAID and the 
 section: 'Server Management'
 ---
 
-**Last updated 16th October 2016**
+**Last updated 2018/10/16**
 
 ## Objective
 
@@ -15,7 +15,7 @@ On a server with a hardware RAID configuration, the RAID array is managed by a p
 
 ## Requirements
 
-- a [dedicated server](https://www.ovh.com/sg/dedicated-servers/){.external} with a hardware RAID configuration
+- a [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external} with a hardware RAID configuration
 - administrative (root) access to the server via SSH
 
 > [!warning]
