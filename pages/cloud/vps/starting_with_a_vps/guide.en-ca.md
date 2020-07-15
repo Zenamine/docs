@@ -157,7 +157,7 @@ Once you have installed and secured your VPS, you may want to secure your domain
 
 You can install this SSL certificate yourself manually, directly on the VPS. Please refer to the official documentation that you have been using.
 
-For a more automated process, OVHcloud also offers the [SSL Gateway](https://www.ovh.com/ca/en/ssl-gateway/). For more information, please refer to the [product page](https://www.ovh.com/ca/en/ssl-gateway/){.external} or [guide documents](https://docs.ovh.com/gb/en/ssl-gateway/){.external} on this solution.
+For a more automated process, OVHcloud also offers the [SSL Gateway](https://www.ovh.com/ca/en/ssl-gateway/). For more information, please refer to the [product page](https://www.ovh.com/ca/en/ssl-gateway/){.external} or [guide documents](https://docs.ovh.com/ca/en/ssl-gateway/){.external} on this solution.
 
 ## Go further
 
