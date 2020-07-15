@@ -33,7 +33,7 @@ Once you have logged in to your Control Panel, click to the Servers tab, then in
 
 On the main screen of your VPS, under shortcut, click on the `···`{.action} button beside boot and select `Reboot in rescue mode`{.action}.
 
-![Confirm rescue mode](images/vps_rescue2.png){.thumbnail}
+![Confirm rescue mode](images/vps_rescue3.png){.thumbnail}
 
 The reboot can take several minutes:
 
