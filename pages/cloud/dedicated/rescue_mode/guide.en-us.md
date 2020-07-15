@@ -17,7 +17,7 @@ Rescue mode is a tool on your server that allows you to boot into a temporary op
 
 ## Requirements
 
-- a have root access to your [dedicated server](https://www.ovh.com/ca/en/dedicated-servers/){.external} via the command line (SSH).
+- a have root access to your [dedicated server](https://www.ovh.com/world/dedicated-servers/){.external} via the command line (SSH).
 
 
 ## Instructions
