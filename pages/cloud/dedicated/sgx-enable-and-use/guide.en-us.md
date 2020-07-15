@@ -14,7 +14,7 @@ Intel SGX delivers advanced hardware and RAM security encryption features, in or
 
 ## Requirements
 
-- An [infrastructure dedicated server](https://www.ovh.com.au/dedicated-servers/infra/){.external}, with the [SGX](https://www.ovh.com.au/dedicated_servers/software-guard-extensions/){.external} option
+- An [infrastructure dedicated server](https://www.ovh.com/world/dedicated_servers/infra/){.external}, with the [SGX](https://www.ovh.com/world/dedicated_servers/software-guard-extensions/){.external} option
 - Administrative (root) access to the server via SSH
 - Access to the [OVHcloud API](https://ca.api.ovh.com/console/){.external}
 - Ubuntu 18.04 or similar installed on the server
