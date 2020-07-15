@@ -5,7 +5,7 @@ excerpt: This guide will show you how to reboot your VPS in rescue mode
 section: Diagnostic and rescue mode
 ---
 
-**Last updated 15th of July 2020**
+**Last updated 2020/07/15**
 
 ## Objective
 
