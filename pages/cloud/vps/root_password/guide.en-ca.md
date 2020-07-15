@@ -5,7 +5,7 @@ excerpt: Learn how to change the root password of a VPS
 section: Diagnostic and rescue mode
 ---
 
-**Last updated 2018/06/27**
+**Last updated July 15th 2020**
 
 ## Objective
 
