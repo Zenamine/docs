@@ -23,6 +23,7 @@ As an example, let's assume that you want to create a marketplace in which you, 
 
 The first part, as the application developer, is to register your application on OVHcloud.
 
+
 To do so, go to [OVHcloud API](https://ca.api.ovh.com/createApp/){.external}.
 
 You will need to log in and set an application name and description.
@@ -83,7 +84,6 @@ The result of that call will be a JSON dictionary
   "state":"pendingValidation",
   "consumerKey":"5DU984kYxyoAe4lRaevZCGnmt9FVnKT2",
   "validationUrl":"https://ca.api.ovh.com/auth/?credentialToken=RAXoRq9FvUQFI1S6hE0HmkySyVp8aDWwIqBA3fYrOr0vVSMdpjqxFqp3IjyjGAfu"
-}
 ```
 
 As the developer, you have to store the `consumerKey`, later refered as `CK`. This key will be used to sign the OVHcloud API requests on behalf of your customer.
@@ -95,6 +95,7 @@ The request has been made and you need your customer to accept it by redirecting
 After redirecting the client to `validationUrl`, he will be asked to confirm the rights delegation.
 
 ![rights confirmation](images/validate-ck-ca.jpg)
+
 
 If successful, the client will be redirected to the url previously specified by `REDIRECT_URL` in the curl command.
 
@@ -112,10 +113,12 @@ From there, depending on the requested permissions, you can start managing your 
 
 ![sequence diagram](images/sequence02-ca.png)
 
+
 Happy development !
 
 ## Go further
 
 - [API Console](https://ca.api.ovh.com/){.external}
+
 
 

@@ -9,6 +9,7 @@ section: 'Getting started'
 
 ## Objective
 
+
 The APIs available on [https://ca.api.ovh.com/](https://ca.api.ovh.com/){.external} allow you to purchase, manage, update and configure OVHcloud products without using a graphical interface such as the Control Panel.
 
 **Learn how to use OVHcloud APIs and how to pair them with your applications.**
@@ -16,6 +17,7 @@ The APIs available on [https://ca.api.ovh.com/](https://ca.api.ovh.com/){.extern
 ## Requirements
 
 - You have an active OVHcloud account and know its credentials.
+
 - You are on the [OVHcloud API](https://ca.api.ovh.com/){.external} web page.
 
 ## Instructions
@@ -40,6 +42,7 @@ To use the APIs on your products, you must sign in to this site using your OVHcl
 - Set a timeline, labelled **Validity**, during which you allow actions through the OVHcloud APIs.
 
 ![API](images/login-ca.png){.thumbnail}
+
 
 > [!primary]
 >
@@ -174,6 +177,7 @@ Once you have obtained your three keys (**AK**, **AS**, **CK**), you can sign AP
 To simplify the development of your applications, OVHcloud provides API wrappers in multiple languages.
 Using them will help you to avoid worrying about signing requests, so that you can focus on developing your application.
 
+
 - *Perl* : <https://ca.api.ovh.com/wrappers/OvhApi-perl-1.1.zip>
 - *Python* : <https://github.com/ovh/python-ovh>
 - *PHP* : <https://github.com/ovh/php-ovh>
@@ -187,6 +191,7 @@ Here is an example of how to use the `/me` section to manage your OVHcloud accou
 import ovh
 
 # Instantiate. Visit https://ca.api.ovh.com/createToken/?GET=/me
+
 # to get your credentials
 client = ovh.Client(
     endpoint='ovh-eu',
