@@ -14,7 +14,7 @@ You may need to configure a failover IP address on your instances for one of the
 * you have a large number of websites on your instance
 * you host international projects
 
-In order to do this you can either buy or [import a failover IP address](../import_a_failover_ip/){.external} for your [Public Cloud instances](https://www.ovh.com/ca/en/public-cloud/instances/){.external}.
+In order to do this you can either buy or [import a failover IP address](../import_a_failover_ip/){.external} for your [Public Cloud instances](https://www.ovh.com/world/public-cloud/instances/){.external}.
 
 However, failover IPs will not be automatically configured on your instance.
 
@@ -23,8 +23,8 @@ However, failover IPs will not be automatically configured on your instance.
 ## Requirements
 
 * access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}
-* a [Public Cloud Instance](https://www.ovh.com/ca/en/public-cloud/instances/){.external} in your OVHcloud account
-* a [failover IP address](https://www.ovh.com/ca/en/dedicated-servers/ip_failover.xml){.external} in your OVHcloud account
+* a [Public Cloud Instance](https://www.ovh.com/world/public-cloud/instances/){.external} in your OVHcloud account
+* a [failover IP address](https://www.ovh.com/world/dedicated-servers/ip_failover.xml){.external} in your OVHcloud account
 * administrative (root) access to your instance with SSH (Linux only)
 * administrative access to your instance via RDP (Windows only)
 
