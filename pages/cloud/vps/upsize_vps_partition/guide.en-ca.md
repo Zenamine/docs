@@ -12,13 +12,13 @@ When you upgrade your VPS, you might need to repartition your storage space. Her
 
 > [!warning]
 >
-> Repartitioning could permanently damage your data. OVH cannot be held responsible for any loss or damage to your data. Before doing anything, make sure you back up all of your data. 
+> Repartitioning could permanently damage your data. OVHcloud cannot be held responsible for any loss or damage to your data. Before doing anything, make sure you back up all of your data. 
 >
 
 ## Requirements
 
 - You must have SSH access to the VPS (root access).
-- You need to reboot the server in [rescue mode](https://docs.ovh.com/gb/en/vps/rescue/){.external}.
+- You need to reboot the server in [rescue mode](https://docs.ovh.com/ca/en/vps/rescue/){.external}.
 
 ## Instructions
 
@@ -32,7 +32,7 @@ Attempting to extend a partition can lead to a loss of data. It is therefore **s
 
 ### Unmount the partition
 
-After logging in to your VPS in [rescue mode](https://docs.ovh.com/gb/en/vps/rescue/){.external}, your partition will automatically be mounted. In order to resize it, you will need to unmount it. If you know the name of your partition, you can skip the following step. If you don’t know the name of your partition, use the following command:
+After logging in to your VPS in [rescue mode](https://docs.ovh.com/ca/en/vps/rescue/){.external}, your partition will automatically be mounted. In order to resize it, you will need to unmount it. If you know the name of your partition, you can skip the following step. If you don’t know the name of your partition, use the following command:
 
 ```sh
 lsblk
@@ -224,4 +224,4 @@ fsck -b 32768 /dev/sdb1
 
 ## Go further
 
-Join our community of users at <https://www.ovh.co.uk/community/> .
+Join our community of users at <https://community.ovh.com> .
