@@ -37,7 +37,7 @@ A window will then initiate the connection to your VPS. This could take a few se
 
 ### Connecting to the KVM via the APIs
 
-You may sometimes experience issues connecting to the KVM via your Control Panel. In this case, you can use the API solution. First, log in via [OVH API](https://api.ovh.com/).
+You may sometimes experience issues connecting to the KVM via your Control Panel. In this case, you can use the API solution. First, log in via [OVHcloud API](https://api.ovh.com/).
 
 > [!api]
 >
@@ -46,4 +46,4 @@ You may sometimes experience issues connecting to the KVM via your Control Panel
 
 ## Go further
 
-Join our community of users on <https://www.ovh.com/community/en/>.
+Join our community of users on <https://community.ovh.com/en/>.
