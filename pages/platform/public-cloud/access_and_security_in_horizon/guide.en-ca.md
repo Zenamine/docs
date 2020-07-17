@@ -27,7 +27,7 @@ There are 3 areas to note:
 
 - Security Groups lets you manage security rules and access to instances, limiting access to certain ports for exmple.
 
-![security Horizon](images/security_groups.jpg){.thumbnail}
+![security Horizon](images/security_groups.png){.thumbnail}
 
 - Key pairs lets you manage SSH keys in two different ways: 
 
