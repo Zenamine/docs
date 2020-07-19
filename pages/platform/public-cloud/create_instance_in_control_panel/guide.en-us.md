@@ -22,9 +22,6 @@ The [Public Cloud](https://www.ovh.com/world/public-cloud/instances/){.external}
 
 ## Intructions
 
-
-![view](images/pci-instance-view-01.png){.thumbnail}
-
 ### Add an instance
 
 First, log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external} and click on the `Public Cloud`{.action} menu.
