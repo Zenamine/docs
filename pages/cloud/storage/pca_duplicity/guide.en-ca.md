@@ -7,7 +7,11 @@ section: Public Cloud Archive
 
 
 ## Introduction
+<<<<<<< HEAD
 Duplicity is a backup solution supporting a wide range of storage services as backends. It supports many features like encryption, compression, filtering, signing etc. As an extremely cheap cold storage solution, [PCA](https://www.ovhcloud.com/en-ca/public-cloud/cloud-archive/){.external} is a first class choice for archiving backups.
+=======
+Duplicity is a backup solution supporting a wide range of storage services as backends. It supports many features like encryption, compression, filtering, signing etc. As an extremely cheap cold storage solution, [PCA](https://www.ovh.com/us/public-cloud/storage/cloud-archive/){.external} is a first class choice for archiving backups.
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 
 
 ## How duplicity works
@@ -27,7 +31,11 @@ They hold the actual data. Their size is configured by the user.
 
 
 ## Hot vs Cold storage
+<<<<<<< HEAD
 While hot storage permits accessing data immediately, cold storage introduces a latency in the retrieval process. In order to work, duplicity requires manifests and signatures to be always available. As a consequence, data to be stored must be split according to the expected availability level. Volume files, representing the largest part of a backup, and the bigger in size, will be pushed to PCA while other lightweight information will be stored in [PCS](https://www.ovhcloud.com/en-ca/public-cloud/object-storage/){.external}. This is possible to accomplish with duplicity's multibackend feature.
+=======
+While hot storage permits accessing data immediately, cold storage introduces a latency in the retrieval process. In order to work, duplicity requires manifests and signatures to be always available. As a consequence, data to be stored must be split according to the expected availability level. Volume files, representing the largest part of a backup, and the bigger in size, will be pushed to PCA while other lightweight information will be stored in [PCS](https://www.ovh.com/us/public-cloud/storage/object-storage/){.external}. This is possible to accomplish with duplicity's multibackend feature.
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 
 
 ## Duplicity version
