@@ -69,7 +69,7 @@ Your instance will now be created. It may take a few minutes to finalise.
 
 The newly-created instance will now be visible in your account.
 
-![account](images/pci-instance-created-01.png){.thumbnail}
+![account](images/pci-instance-created-01_2020.png){.thumbnail}
 
 > [!warning]
 >
