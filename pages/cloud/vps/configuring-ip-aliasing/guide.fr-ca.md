@@ -11,7 +11,7 @@ section: 'Network Management'
 
 L'IP en Alias est une configuration réseau spéciale pour vos serveurs OVHcloud, qui vous permet d'associer plusieurs adresses IP à une seule interface réseau.
 
-**Ce guide explique comment ajouter des IP Failover à votre configuration VPS.**
+**Ce guide explique comment ajouter des IPs Failover à votre configuration VPS.**
 
 ## Prérequis
 
