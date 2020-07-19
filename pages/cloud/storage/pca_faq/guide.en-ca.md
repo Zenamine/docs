@@ -29,11 +29,21 @@ Unsealing an archive consists of sending an unsealing request, and then polling 
 
 Unsealing can be done through :
 
+<<<<<<< HEAD
 - The [customer interface](../pca_unlock/guide.en-ca.md){.ref}.
 - The [Openstack API](../pca_dev/guide.en-ca.md){.ref}.
+=======
+- The [customer interface](../unlock/guide.en-gb.md){.ref}.
+- The [Openstack API](../dev/guide.en-gb.md){.ref}.
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 - Gateways for SSH-based protocols: make an attemp to retrieve the archive.
 
 This operation processing can be polled with :
 
+<<<<<<< HEAD
 - The [customer interface](../pca_unlock/guide.en-ca.md){.ref}.
 - The [Openstack API](../pca_dev/guide.en-ca.md){.ref}.
+=======
+- The [customer interface](../unlock/guide.en-gb.md){.ref}.
+- The [Openstack API](../dev/guide.en-gb.md){.ref}.
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce

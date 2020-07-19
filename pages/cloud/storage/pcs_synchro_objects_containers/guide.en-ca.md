@@ -11,7 +11,11 @@ If you want to move your objects from one datacenter to another or even from one
 
 
 ### Prerequisites
+<<<<<<< HEAD
 You need to -  [Prepare the environment for the OpenStack API](../platform/public-cloud/prepare_the_environment_for_using_the_openstack_api/guide.en-ca.md){.ref} by downloading the Swift client. -  Set OpenStack environment variables -  You must have two object containers in two different datacenters
+=======
+You need to -  [Prepare the environment for the OpenStack API](https://www.ovh.com/fr/g1851.preparer_lenvironnement_pour_utiliser_lapi_openstack){.external} by downloading the Swift client. -  Set OpenStack environment variables -  You must have two object containers in two different datacenters
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 
 
 ## Configure the synchronization

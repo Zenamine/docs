@@ -19,7 +19,11 @@ Esta guía explica cómo configurar un dominio en sus contenedores para facilita
 Para seguir todos los pasos de esta guía, es necesario:
 
 
+<<<<<<< HEAD
 - [Añadir espacios de almacenamiento](../platform/public-cloud/add_storage_space/guide.es-us.md){.ref}
+=======
+- [Añadir espacios de almacenamiento](https://docs.ovh.com/es/public-cloud/anadir_espacios_de_almacenamiento/)
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 - Tener un dominio registrado
 
 

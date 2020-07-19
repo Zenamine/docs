@@ -13,7 +13,11 @@ Ce guide vous explique donc comment configurer un nom de domaine sur vos contene
 
 
 ### Prérequis
+<<<<<<< HEAD
 - Consultez le guide [Création de conteneur de stockage](../platform/public-cloud/add_storage_space/guide.fr-ca.md){.ref}
+=======
+- Consultez le guide [Création de conteneur de stockage](../guide.fr-fr.md){.ref}
+>>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
 - Un nom de domaine
 
 
