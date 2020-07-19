@@ -335,4 +335,4 @@ Modifiez manuellement votre configuration IP en utilisant les adresses précéde
 
 Pour configurer une adresse IP failover, consultez le guide suivant :
 
-<https://docs.ovh.com/fr/public-cloud/configurer_une_ip_failover/>
+<https://docs.ovh.com/ca/fr/public-cloud/configurer_une_ip_failover/>
