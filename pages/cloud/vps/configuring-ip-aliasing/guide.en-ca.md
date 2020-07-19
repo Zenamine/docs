@@ -9,7 +9,7 @@ section: 'Network Management'
 
 ## Objective
 
-IP aliasing is a special network configuration for your OVH servers, which allows you to associate multiple IP addresses with a single network interface.
+IP aliasing is a special network configuration for your OVHcloud servers, which allows you to associate multiple IP addresses with a single network interface.
 
 **This guide explains how to add failover IPs to your VPS configuration.**
 
