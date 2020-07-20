@@ -64,17 +64,16 @@ Once you've clicked the `Add`{.action} button, you'll be prompted to complete th
 
 #### Buy cloud credit
 
-You can also pay for your [Public Cloud]({ovh_www}/public-cloud/instances/){.external} usage using cloud credit. Your first cloud credit purchase will cost £30. Any resources you use after this will consume your credit. When your credit is depleted, you can purchase more using any accepted payment method.
+You can also pay for your [Public Cloud]({ovh_www}/public-cloud/instances/){.external} usage using cloud credit. Your first cloud credit purchase will cost $50. Any resources you use after this will consume your credit. When your credit is depleted, you can purchase more using any accepted payment method.
 
 Cloud credit is non-transferable or refundable. It has no monetary value, and if it is not used within 13 months it will be lost.
 
-![cloud credit](images/img_4658.jpg){.thumbnail}
 
 #### Use a voucher
 
 If you have a promotional code, you can add it during this stage to pay for your resources. The duration of the voucher may vary.
 
-![voucher](images/voucher_2020.jpg){.thumbnail}
+![voucher](images/voucher_2020.png){.thumbnail}
  
 Once you have created your project, it will be available in the left-hand menu.
 
