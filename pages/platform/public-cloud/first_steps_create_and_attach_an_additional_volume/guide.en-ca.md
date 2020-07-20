@@ -67,10 +67,10 @@ Select your instance in the drop down menu and click `Confirm` {.action}
 
 Once this is done, it will show the instance that it is attached to.
 
-[public-cloud](images/volume_attached.png]
+![public-cloud](images/volume_attached.png){.thumbnail}
 
 > [!primary]
 >
-> To continue, you will probably need to [configur](..//howto_configure_an_additionnal_volumee){.external} this
+> To continue, you will probably need to [configure](../howto_configure_an_additionnal_volumee){.external} this
 > new volume on your instance.
 > 
