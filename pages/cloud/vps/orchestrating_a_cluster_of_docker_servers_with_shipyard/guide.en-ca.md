@@ -230,7 +230,7 @@ You can now access the Shipyard interface via http://<your-host-ip>:8080 by logg
 Once you're in, we're going to add engines (nodes) via the Shipyard web interface under Engines:
 
 ![](images/img_2612.jpg){.thumbnail}
-Don't forget to copy/paste the security certificates that your generated in the SSL certificates, SSL key and CA certificate sections.
+Don't forget to copy/paste the security certificates that you generated in the SSL certificates, SSL key and CA certificate sections.
 You need to do this for each node (make sure you give each node a unique label).
 
 ![](images/img_2613.jpg){.thumbnail}
