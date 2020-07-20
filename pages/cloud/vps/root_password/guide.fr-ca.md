@@ -9,13 +9,13 @@ section: Diagnostic et mode Rescue
 
 ## Objectif
 
-Lors de l'installation ou de la réinstallation d'une distribution, un mot de passe pour l'accès root vous est fourni. Nous vous conseillons vivement de le modifier comme expliqué dans notre [guide de sécurisation](https://docs.ovh.com/fr/vps/conseils-securisation-vps/){.external}. Il est également possible que vous ne retrouviez plus ce mot de passe et que vous ayez besoin de le modifier. Ce guide va vous présenter les deux cas de figure.
+Lors de l'installation ou de la réinstallation d'une distribution, un mot de passe pour l'accès root vous est fourni. Nous vous conseillons vivement de le modifier comme expliqué dans notre [guide de sécurisation](../conseils-securisation-vps/){.external}. Il est également possible que vous ne retrouviez plus ce mot de passe et que vous ayez besoin de le modifier. Ce guide va vous présenter les deux cas de figure.
 Découvrez comment modifier le mot de passe root d’un VPS.
 
 ## Prérequis
 
 - Être connecté en SSH au VPS (accès root).
-- [Redémarrer le VPS en mode Rescue](https://docs.ovh.com/fr/vps/mode-rescue-vps/){.external}.
+- [Redémarrer le VPS en mode Rescue](../mode-rescue-vps/){.external}.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b736xXk06AM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -104,12 +104,12 @@ Retype new UNIX password:
 passwd: password updated successfully
 ```
 
-Pour finir, redémarrez votre VPS sur son disque depuis votre espace client OVH.
+Pour finir, redémarrez votre VPS sur son disque depuis votre espace client OVHcloud.
 
 ## Aller plus loin
 
-[Introduction au SSH](https://docs.ovh.com/ca/fr/dedicated/ssh-introduction/){.external}.
+[Introduction au SSH](../dedicated/ssh-introduction/){.external}.
 
-[Mode Rescue sur VPS](https://docs.ovh.com/ca/fr/vps/mode-rescue-vps/){.external}.
+[Mode Rescue sur VPS](../mode-rescue-vps/){.external}.
 
 Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
