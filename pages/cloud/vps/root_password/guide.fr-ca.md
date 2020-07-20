@@ -46,7 +46,7 @@ passwd: password updated successfully
 
 #### Étape 1 : identifier le point de montage
 
-Le montage est fait automatiquement sur les VPS 2016, il convient donc d'identifier l'endroit où la partition est montée. Pour cela, deux commandes sont possibles :
+Le montage est fait automatiquement, il convient donc d'identifier l'endroit où la partition est montée. Pour cela, deux commandes sont possibles:
 
 ##### df -h
 
