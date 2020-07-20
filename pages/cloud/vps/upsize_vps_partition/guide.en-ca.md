@@ -195,7 +195,7 @@ none 100M 0 100M 0% /run/user
 
 You will find the new partition size listed below the label `size`.
 
-### How do I fix a *bad magic number in superblock* error?
+### How to fix a bad magic number in superblock error.
 
 If the command `e2fsck`{.action} returns the error message `bad magic number in superblock`, you should check and repair the filesystem by using a backup of the superblock. To see which backups of the superblock are available, enter the following command:
 
