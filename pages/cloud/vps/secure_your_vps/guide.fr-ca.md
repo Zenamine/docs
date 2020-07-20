@@ -210,6 +210,6 @@ Vous trouverez toutes les informations sur nos solutions de sauvegarde VPS ici 
 
 ## Aller plus loin
 
-[Guide sur le firewall network](../dedicated/firewall-network//){.external}
+[Guide sur le firewall network](../dedicated/firewall-network/){.external}
 
 Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com>.
