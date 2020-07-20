@@ -25,7 +25,7 @@ hidden: true
 
 Log into to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external}. Once you're logged in, click on the `Cloud`{.action} menu.
 
-![cloud menu](images/menu_2020.png){.thumbnail}
+![cloud menu](images/menu.png){.thumbnail}
 
 Next, click on the `Order`{.action} button.
 
