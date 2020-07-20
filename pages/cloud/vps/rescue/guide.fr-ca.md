@@ -41,7 +41,7 @@ Dans votre espace client OVH, cliquez sur l'onglet Server et choisissez votre VP
 
 ![Zone VPS dans le Panneau de configuration](images/vps_rescue6.png){.thumbnail}
 
-Sur l'écran principal de votre VPS, sous votre VPS cliquez sur le bouton boot `···`{.action} et choisissez `Redémarrer en mode rescue`{.action}.
+Sur l'écran principal de votre VPS, sous votre VPS, cliquez sur le bouton boot `···`{.action} et choisissez `Redémarrer en mode rescue`{.action}.
 
 ![Confirmer le mode secours](images/vps_rescue7.png){.thumbnail}
 
