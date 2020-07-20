@@ -6,7 +6,7 @@ section: 'Getting started'
 order: 1
 ---
 
-**Last updated 15th June 2020**
+**Last updated 15/06/2020**
 
 ## Objective
 
