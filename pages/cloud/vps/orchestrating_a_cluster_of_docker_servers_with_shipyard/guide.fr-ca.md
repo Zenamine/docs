@@ -17,13 +17,9 @@ scp ca.pem server-cert.pem server-key.pem user@2.2.2.2:/etc/docker/certs/
 scp ca.pem server-cert.pem server-key.pem user@3.3.3.3:/etc/docker/certs/
 ```
 
+Pour augmenter la sécurité au niveau du cluster, nous mettrons en place des règles au niveau de notre iptable sur le serveur maître et nos nodes. Ci-dessous, est un exemple de règles pour l'iptable qui peuvent être appliqué sur les nodes.
 
-To increase the security at cluster level, we will set up iptable rules on our master server and our nodes. Below is an example of the iptable rules that can be applied:
-
-on to the nodes:
-
-To install iptable rules:
-
+Pour installer les règles iptable:
 
 ```
 # Keep established connections
@@ -38,7 +34,8 @@ iptables -t filter -A INPUT -p icmp -j ACCEPT
 # SSH In
 iptables -t filter -A INPUT -s 4.4.4.4 -p tcp --dport 22 -j ACCEPT
 
-# /!\ ATTENTION: make sure you enter the correct IP address at this level. It should be the connection IP or the IP address of the master server, for example. These will be the only IPs able to connect via SSH to the nodes.
+# /!\ ATTENTION: assurez-vous de bien renseigner l'adresse IP à ce niveau. L'adresse IP devrait être celle de connexion ou du serveur maître, par exemple.
+Ce seront les seuls IPs capable de se connecter via SSH aux nodes.
 
 # HTTP In
 iptables -t filter -A INPUT -p tcp --dport 80 -j ACCEPT
@@ -49,38 +46,32 @@ iptables -t filter -A INPUT -p tcp --dport 443 -j ACCEPT
 # Docker In
 iptables -t filter -A INPUT -s 4.4.4.4 -p tcp --dport 2375 -j ACCEPT
 
-# /!\ ATTENTION: make sure you enter the correct IP address at this level. It should be the IP address of the master server, which will be the only IP able to connect to port 2375.
+# /!\ ATTENTION: assurez-vous de bien renseigner l'adresse IP à ce niveau. L'adresse IP devrait être celle du serveur maître, ce sera le seul IP capable de se connecter sur le port 2375.
 
 # Prevent all incoming connections
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
 ```
 
-
-Once the rules have been defined, we need to save them so that they launch on startup:
-
+Une fois les règles définies, nous devons les sauvegarder pour qu'elles s'appliquent au démarrage:
 
 ```
 apt-get install iptables-persistent
 ```
 
+Choisir "yes" lorsqu'on demande de sauvegarder IPv4 iptables.
 
-And select "yes" when asked if we need to save IPv4 iptables.
+/!\ ATTENTION: Il est recommandé de vérifier que les règles fonctionnent correctement avant de sauvegarder. Si vous devez réinitialiser des règles non sauvegardées, redémarrer le serveur.
 
-/!\ ATTENTION: we advise you to check that the rules are working properly before saving them. If you need to reset any unsaved rules, simply reboot your servers.
-
-You can add iptable rules at any time and save them via:
-
+Vous pouvez ajouter des règles iptable à n'importe quel moment et les sauvegarder via:
 
 ```
 iptables-persistent save
 ```
 
+Sur le serveur maître:
 
-On the master server:
-
-Let's install the iptable rules:
-
+Installer les règles iptable:
 
 ```
 # Keep established connections
@@ -108,7 +99,7 @@ iptables -t filter -P FORWARD DROP
 ```
 
 
-Once the rules have been defined, we need to save them so that they launch on startup:
+Une fois les règles définies, nous devons les sauvegarder pour qu'elles s'appliquent au démarrage:
 
 
 ```
@@ -116,11 +107,11 @@ apt-get install iptables-persistent
 ```
 
 
-And select "yes" when asked if we need to save IPv4 iptables.
+Choisir "yes" lorsqu'on demande de sauvegarder IPv4 iptables.
 
-/!\ ATTENTION: we advise you to check that the rules are working properly before saving them. If you need to reset any unsaved rules, simply reboot your servers.
+/!\ ATTENTION: Il est recommandé de vérifier que les règles fonctionnent correctement avant de sauvegarder. Si vous devez réinitialiser des règles non sauvegardées, redémarrer le serveur.
 
-You can add iptable rules at any time and save them via:
+Vous pouvez ajouter des règles iptable à n'importe quel moment et les sauvegarder via:
 
 
 ```
@@ -128,12 +119,11 @@ iptables-persistent save
 ```
 
 
-
-
 ## 
 Once Docker is installed on our 3 servers (see [this guide](https://community.runabove.com/kb/en/instances/docker-in-5-minutes-on-runabove-with-docker-machine.html)). We're going bind the Docker daemon to a port, e.g. port 2375 - the official port assigned by [the IANA](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=docker), so that these servers can communicate with the master server. Start by stopping Docker on every one of our servers with this command:
 
-
+Une fois que Docker est intallé sur vos 3 serveurs (voir [ce guide](https://community.runabove.com/kb/en/instances/docker-in-5-minutes-on-runabove-with-docker-machine.html)). Nous allons. 
+ 
 ```
 service docker stop
 ```
