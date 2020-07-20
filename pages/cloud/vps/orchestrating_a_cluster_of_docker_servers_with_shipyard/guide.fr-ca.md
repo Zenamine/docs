@@ -120,25 +120,19 @@ iptables-persistent save
 
 
 ## 
-Once Docker is installed on our 3 servers (see [this guide](https://community.runabove.com/kb/en/instances/docker-in-5-minutes-on-runabove-with-docker-machine.html)). We're going bind the Docker daemon to a port, e.g. port 2375 - the official port assigned by [the IANA](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=docker), so that these servers can communicate with the master server. Start by stopping Docker on every one of our servers with this command:
-
-Une fois que Docker est intallé sur vos 3 serveurs (voir [ce guide](https://community.runabove.com/kb/en/instances/docker-in-5-minutes-on-runabove-with-docker-machine.html)). Nous allons. 
+Une fois que Docker est installé sur nos 3 serveurs (voir [ce guide](https://community.runabove.com/kb/en/instances/docker-in-5-minutes-on-runabove-with-docker-machine.html)). Nous allons lier le daemon Docker a un port, par ex. port 2375 - port officiel assigné par [IANA](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=docker), de cette façon ces serveurs peuvent communiquer avec le serveur maître. Commencez par arrêter Docker sur chacun des serveurs avec cette commande:
  
 ```
 service docker stop
 ```
 
-
-Then open the folder that contains our certificates:
-
+Ensuite, ouvrir le fichier qui contient les ceriticats:
 
 ```
 cd /etc/docker/
 ```
 
-
-Then, to launch Docker, we will communicate to port 2375 with TLS authentication by running the below command on every one of our nodes:
-
+Pour lancer Docker, nous allons communiquer sur le port 2375 avec le protocole TLS en exécutant la commande ci-dessous sur chacun de nos nodes.
 
 ```
 docker -d --tlsverify --tlscacert=/etc/docker/certs/ca.pem --tlscert=/etc/docker/certs/server-cert.pem --tlskey=/etc/docker/certs/server-key.pem -H=0.0.0.0:2375 --label name=node1
@@ -149,52 +143,47 @@ docker -d --tlsverify --tlscacert=/etc/docker/certs/ca.pem --tlscert=/etc/docker
 ```
 
 
-/!\ ATTENTION: these are not persistant options. If the machine reboots, you will need to relaunch Docker with these options. The best thing would be to define them in $DOCKER_OPTS. In Ubuntu, they can be easily defined in /etc/default/docker
+/!\ ATTENTION: Ce ne sont pas des options permanentes. Si le serveur redémarre, vous aurez à relancer Docker avec ces options. La meilleure chose à faire serait de les définir dans $DOCKER_OPTS. Dans Ubuntu, elles peuvent être définies dans /etc/default/docker.
 
-Here "--label name=node1" will allow us to give each of our nodes with a unique label. Then we will be able to launch a Docker container on a particular node with a set of constraints.
 
-We can now install Shipyard on the manager server.
+Ici "--label name=node1" nous permet d'attribuer une label à chacun de nos nodes. Nous pourrons ensuite lancer un container Docker sur un node précis avec un ensemble de contraintes.
 
+Nous pouvons maintenant installer Shipyard sur le serveur de management.
 
 ## 
-We will start by launching a RethinkDB data volume instance:
+Commençons par créer une instance volume de donnée RethinkDB.
 
 
 ```
 docker run -it -d --name shipyard-rethinkdb-data --entrypoint /bin/bash shipyard/rethinkdb -l
 ```
 
-
-We will launch RethinkDB with the previously created data volume:
-
+Nous allons démarrer RethinkDB avec le volume créer précédemment.
 
 ```
 docker run -it -P -d --name shipyard-rethinkdb --volumes-from shipyard-rethinkdb-data shipyard/rethinkdb
 ```
 
 
-/!\ ATTENTION: if your server can be accessed directly from the internet, take note that RethinkDB will listen to ports 49153 (local instance), 49154 (cluster) and 49155 (web interface).
+/!\ ATTENTION: Si votre serveur est accessible directement d'internet, notez que RethinkDB écoute les ports 49153 (instance local), 49154 (cluster) et 49155 (interface web).
 
-We will then run Shipyard by connecting it to the database via (--link shipyard-rethinkdb:rethinkdb):
-
+Nous allons ensuite exécuter Shipyard en nous connectant à la base de données via (--link shipyard-rethinkdb:rethinkdb):
 
 ```
 docker run -it -p 8080:8080 -d --name shipyard --link shipyard-rethinkdb:rethinkdb shipyard/shipyard
 ```
 
 
+Shipyard créera un utilisateur "admin" automatiquement, le mot de passe par défaut sera "shipyard".
 
-Shipyard will then automatically set up an "admin" user, with "shipyard" as the default password.
-
-Before you log in to the web interface, we recommend that you change your Shipyard password. We will begin by launching a container that will allow us to access the Shipyard CLI:
-
+Avant de vous connecter a l'interface web, nous recommandons de changer le mot de passe Shipyard. Nous allons commencer par lancer un container qui nous permettra d'accéder au CLI de Shipyard.
 
 ```
 docker run -it shipyard/shipyard-cli
 ```
 
 
-Enter:
+Entrez:
 
 
 ```
@@ -209,28 +198,27 @@ Confirm: <RE-ENTER_YOUR_PASSWORD>
 ```
 
 
-Once we've completed the operation, we will use ctrl+d to exit the CLI. 
+Après avoir complété cette opération, nous utiliserons ctrl+d pour quitter le CLI.
 
-You can now access the Shipyard interface via http://<your-host-ip>:8080 by logging in with the "admin" username and your password.
+Nous pouvons maintenant accéder à l'interface Shipyard via http://<your-host-ip>:8080 avec l'utilisateur "admin" et son mot de passe.
 
-Once you're in, we're going to add engines (nodes) via the Shipyard web interface under Engines:
-
+Une fois connectés, nous allons ajouter des engines (nodes) via l'interface web de Shipyard sous "Engines":
 ![](images/img_2612.jpg){.thumbnail}
-Don't forget to copy/paste the security certificates that your generated in the SSL certificates, SSL key and CA certificate sections.
-You need to do this for each node (make sure you give each node a unique label).
 
+N'oubliez pas de copier/coller les certificats de sécurité que vous avez générée dans les certificats SSL, clé SSL et la section certificat CA.
+Vous devez faire ceci pour chacun des nodes (assurez-vous de donner un label unique a chaque node).
 ![](images/img_2613.jpg){.thumbnail}
-You can also add engines via the CLI. Firstly, launch the Shipyard CLI container:
 
+Vous pouvez aussi ajouter des engines via le CLI. Premièrement, lancer le Shipyard CLI container.
 
 ```
 docker run -it -v /etc/docker/certs/:/home/ shipyard/shipyard-cli
 ```
 
 
-"-v /etc/docker/certs/:/home/" will allow us to create a common repository between the host server (the master server) and the Shipyard CLI container that runs on the same machine, so that the container can access the previously geenrated certificates.
+"-v /etc/docker/certs/:/home/" nous permettra de créer un repository entre l'host (serveur maître) et le container CLI Shipyard qui s'exécute sur le même serveur pour que notre container puisse accéder aux certificats générés précédemment.
 
-Enter:
+Entrez:
 
 
 ```
@@ -241,24 +229,21 @@ Password: votre_mot_de_passe
 ```
 
 
-And then launch this command:
-
+Ensuite, exécutez cette commande:
 
 ```
 shipyard add-engine --id node1 --addr https://1.1.1.1:2375 --label node1 --ssl-cert /home/client-cert.pem --ssl-key /home/client-key.pem --ca-cert /home/ca.pem
 ```
 
-
-Once the operation is complete, use ctrl+d to exit the CLI.
-
+Une fois l'opération complétée, utilisez crtl+d pour quitter le CLI.
 
 ## 
-We can now see and manage all the containers deployed on our various nodes under Containers:
-
+Nous pouvons maintenant voir et gérer tous les containers déployés sur nos différents nodes sous Containers:
 ![](images/img_2614.jpg){.thumbnail}
 
 ![](images/img_2615.jpg){.thumbnail}
-Lastly, we will click DEPLOY to launch the containers on all nodes, or on specific nodes (by selecting the label for each node).
+Enfin, nous allons cliquer sur DEPLOY pour lancer les containers sur tous les nodes, ou sur des nodes spécifique (en sélectionnant le label du nodes).
 
 ![](images/img_2616.jpg){.thumbnail}
-You now have a Docker server orchestration system which allows you to easily and quickly provision applications and containers in your cluster via a GUI. If you'd like to test Docker, you can sign up for our Sailabove alpha here: https://labs.runabove.com/docker. We've also just put in place an Ubuntu 14.04 + Docker (pre-installed) image on VPS Cloud & Classic (available on all our VPSs except VPS Classic 1, which doesn't have enough disk space), which will enable you to obtain container-ready servers directly and benefit from the inherent advantages of the OVH VPS.
+
+Vous avez maintenant un système d'orchestration de serveur Docker qui vous permet facilement et rapidement de provisionner des applications et containers dans votre cluster via un GUI.
