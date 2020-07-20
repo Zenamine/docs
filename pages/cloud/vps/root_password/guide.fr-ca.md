@@ -5,7 +5,7 @@ excerpt: Découvrez ici comment modifier le mot de passe root d’un VPS
 section: Diagnostic et mode Rescue
 ---
 
-**Dernière mise à jour le 2018/06/27**
+**Dernière mise à jour le 2020/07/15**
 
 ## Objectif
 
