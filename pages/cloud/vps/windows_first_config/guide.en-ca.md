@@ -5,7 +5,7 @@ excerpt: 'This guide will show you which settings need to be changed to re-enabl
 section: 'Getting started'
 ---
 
-**Last updated 15th June 2019**
+**Last updated 2019/06/15****
 
 ## Objective
 
@@ -38,7 +38,7 @@ Windows will now apply your settings. When this is done, you will see the follow
 
 ![KVM](images/setup-05.png){.thumbnail}
 
-On the sign-in screen, enter the password you created for your Administrator account and hit the `Next`{.action} key on your keyboard.
+On the sign-in screen, enter the password you created for your Administrator account and hit the `Enter`{.action} key on your keyboard.
 
 ![KVM](images/setup-06.png){.thumbnail}
 
