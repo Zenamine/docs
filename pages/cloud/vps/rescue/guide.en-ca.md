@@ -13,6 +13,16 @@ In rescue mode, you can reboot your server on an independent OVHcloud configurat
 
 The advantage of this is that you can carry out tests and make configuration changes when it is most convenient for you, and when it will have the least impact on the operations performed by your server. This also allows you to correct any configuration errors made, which prevented you from accessing the server from the drive.
 
+In rescue mode, you can :
+
+- Change your root password ;
+- Troubleshoot network problems ;
+- Fix a defective operating system ;
+- Correct a bad firewall configuration ;
+- test disk performance.
+
+Performing rescue mode checks also helps you determine if there is a software or hardware issue.
+
 > [!warning]
 >
 > If you have any services online, rescue mode will interrupt them as the machine is being rebooted into the OVH rescue environment.
