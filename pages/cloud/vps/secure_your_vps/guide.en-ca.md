@@ -210,6 +210,6 @@ You will find all information on our VPS backup solutions here: <https://www.ovh
 
 ## Go further
 
-[Firewall Network Guide](https://docs.ovh.com/ca/en/dedicated/firewall-network/){.external}/
+[Firewall Network Guide](https://docs.ovh.com/ca/en/dedicated/firewall-network/){.external}
 
 Join our user community on <https://community.ovh.com/en/>.
