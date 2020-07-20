@@ -18,7 +18,7 @@ When you upgrade your VPS, you might need to repartition your storage space. Her
 ## Requirements
 
 - You must have SSH access to the VPS (root access).
-- You need to reboot the server in [rescue mode](https://docs.ovh.com/ca/en/vps/rescue/){.external}.
+- You need to reboot the server in [rescue mode](../rescue/){.external}.
 
 ## Instructions
 
@@ -32,7 +32,7 @@ Attempting to extend a partition can lead to a loss of data. It is therefore **s
 
 ### Unmount the partition
 
-After logging in to your VPS in [rescue mode](https://docs.ovh.com/ca/en/vps/rescue/){.external}, your partition will automatically be mounted. In order to resize it, you will need to unmount it. If you know the name of your partition, you can skip the following step. If you don’t know the name of your partition, use the following command:
+After logging in to your VPS in [rescue mode](../rescue/){.external}, your partition will automatically be mounted. In order to resize it, you will need to unmount it. If you know the name of your partition, you can skip the following step. If you don’t know the name of your partition, use the following command:
 
 ```sh
 lsblk
