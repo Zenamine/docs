@@ -132,6 +132,6 @@ Vous avez maintenant accès au panneau d'administration :
 
 ## Aller plus loin
 
-[« Introduction au SSH. »](https://docs.ovh.com/ca/fr/vps/debuter-avec-vps/)
+[Débuter avec un VPS](https://docs.ovh.com/ca/fr/vps/debuter-avec-vps/)
 
 Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
