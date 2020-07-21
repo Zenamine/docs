@@ -19,11 +19,11 @@ OpenVPN est un logiciel permettant de créer un Réseau Virtuel Privé (ou Virtu
 
 Afin de créer votre serveur OpenVPN, il faut d'abord commander un VPS. (Si vous possédez déjà un VPS, vous pouvez installer OpenVPN via votre panneau de contrôle OVHcloud)
 
-![horizon](images/openvpn.png){.thumbnail}
+![horizon](images/OpenVPN.png){.thumbnail}
 
 Quand votre VPS est prêt, vous recevez un e-mail vous donnant les accès pour vous connecter à votre serveur OpenVPN:
 
-![horizon](images/openvpncredent2.png){.thumbnail}
+![horizon](images/opencredent2.png){.thumbnail}
 
 Votre serveur VPN est maintenant prêt à être utilisé.
 
