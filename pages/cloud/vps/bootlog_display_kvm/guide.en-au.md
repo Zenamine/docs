@@ -4,7 +4,7 @@ slug: displaying-boot-log-in-the-kvm
 section: Diagnostic and rescue mode
 ---
 
-**Last updated 26/01/2018**
+**Last updated 2018/01/26**
 
 ## Overview
 
@@ -15,7 +15,7 @@ Please note that for some environments, the KVM won’t provide any useful infor
 
 ## Requirements
 
-- You must have access to a VPS or a Public Cloud instance in [rescue mode](https://docs.ovh.com/au/en/vps/rescue/){.external}
+- You must have access to a VPS or a Public Cloud instance in [rescue mode](../rescue/){.external}
 
 
 ## Instructions
@@ -99,9 +99,9 @@ From now on, all commands will be applied to your VPS and not to your rescue mod
 > ```
 > root@serveur-3:~#
 > ```
-> 
+>
 > After performing the `chroot`, you will have:
-> 
+>
 > ```
 > [root@serveur-3 ~]#
 > ```
@@ -146,6 +146,6 @@ update-grub
 Once you have made the modifications, reboot the VPS or the instance in normal mode and check the KVM: the boot log information should appear.
 
 
-## Going further
+## Go further
 
 Join our community of users at <https://community.ovh.com/en/>.
