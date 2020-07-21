@@ -14,7 +14,7 @@ section: Tutorial
 
 > [!warning]
 >
-> While OVH provides you with the devices, the responsibility for their security rests solely in your hands. Since we have no access to these machines, we are not their administrators. It is your responsibility to manage the software, and apply proper security measures on an ongoing basis.
+> While OVHcloud provides you with the devices, the responsibility for their security rests solely in your hands. Since we have no access to these machines, we are not their administrators. It is your responsibility to manage the software, and apply proper security measures on an ongoing basis.
 >
 > This tutorial is designed to help you with the most common tasks. Nevertheless, we recommend that you contact a specialist service provider if you have difficulties or doubts concerning the administration, usage or implementation of security measures on a server.
 >
@@ -37,14 +37,14 @@ Before following this tutorial, please refer to these guides:
 
 ## Requirements
 
-- A [Public Cloud Instance]({ovh_www}/public-cloud/instances/prices/){.external} in the [OVH Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external} with Ubuntu 18.04 installed
+- A [Public Cloud Instance]({ovh_www}/public-cloud/instances/prices/){.external} in the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager){.external} with Ubuntu 18.04 installed
 - Root SSH access on the Instance
 - [Object Storage]({ovh_www}/public-cloud/storage/object-storage/){.external} in the same datacentre as your Public Cloud Instance (optional)
 - [High-performance additional disk]({ovh_www}/public-cloud/storage/additional-disks/){.external} in the same datacentre as your Public Cloud Instance (optional)
 
 
 ## Instructions
-In this section, you will find step-by-step instructions for installing ownCloud on your OVH Public Cloud Instance.
+In this section, you will find step-by-step instructions for installing ownCloud on your OVHcloud Public Cloud Instance.
 
 ### Update your system
 Distribution and operating system developers offer frequent software updates, often for security reasons. Keeping your distribution or operating system up-to-date is a key aspect of securing your Instances.
@@ -198,14 +198,14 @@ Just fill out the form that appears on your screen, as in the annotated example 
 
 ![Setup screen](images/owncloud-setup-screen.png){.thumbnail}
 
-You have now installed ownCloud on your OVH Public Cloud Instance!
+You have now installed ownCloud on your OVHcloud Public Cloud Instance!
 
 ### Using Openstack Object Storage (optional)
 There are advantages and disadvantages to using local disk storage to store your ownCloud files. For example, you have better performance on local storage, but are limited in terms of how much data you can store.
 
-Using OpenStack Object Storage by OVH, you can store your files externally, with no limit on the total volume of data or how long you store it for. Furthermore, OVH guarantees 100% data durability, and replicates your data in three different locations, delivering exceptional value for money.
+Using OpenStack Object Storage by OVHcloud, you can store your files externally, with no limit on the total volume of data or how long you store it for. Furthermore, OVHcloud guarantees 100% data durability, and replicates your data in three different locations, delivering exceptional value for money.
 
-Find out more about [OVH Object Storage]({ovh_www}/public-cloud/storage/object-storage/){.external}.
+Find out more about [OVHcloud Object Storage]({ovh_www}/public-cloud/storage/object-storage/){.external}.
 Read out guide to using Object Storage for ownCloud: [Object Storage for ownCloud](../storage/configure_owncloud_with_object_storage/){.external}.
 
 ### Using an additional disk as storage (optional)
@@ -217,7 +217,7 @@ Find out more about [Public Cloud additional disks]({ovh_www}/public-cloud/stora
 >
 > We strongly advise you to create a backup of your ownCloud folder, or to create a snapshot of the Instance before executing this part of the tutorial.
 >
-> Be aware that OVH does not take any responsibility for data loss or loss of service. Your ownCloud will go offline until you complete all the required steps. Proceed at your own risk.
+> Be aware that OVHcloud does not take any responsibility for data loss or loss of service. Your ownCloud will go offline until you complete all the required steps. Proceed at your own risk.
 >
 
 #### Step 1: Create and attach the disk to your Public Cloud Instance
