@@ -322,5 +322,8 @@ Manually edit your IP configuration, using the details you noted down from the i
 
 To configure a failover IP address, please refer to this documentation:
 
-<https://docs.ovh.com/ca/en/public-cloud/configure_a_failover_ip>
+<../public-cloud/configure_a_failover_ip>
 
+## Go further
+
+Join our community of users on <https://community.ovh.com/en/>.
