@@ -15,7 +15,7 @@ Please note that for some environments, the KVM won’t provide any useful infor
 
 ## Requirements
 
-- You must have access to a VPS or a Public Cloud instance in [rescue mode](https://docs.ovh.com/en/us/vps/rescue/){.external}
+- You must have access to a VPS or a Public Cloud instance in [rescue mode](../rescue/){.external}
 
 
 ## Instructions
@@ -24,7 +24,7 @@ If your VPS is working normally, go directly to step 4.
 
 > [!warning]
 >
-> These modifications will change the GRUB configuration. Be sure to perform backups before making any modifications. OVHcloud cannot be held responsible for damage or loss of data following these operations.
+> These modifications will change the GRUB configuration. Be sure to perform backups before making any modifications. OVH cannot be held responsible for damage or loss of data following these operations.
 >
 
 
