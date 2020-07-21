@@ -275,5 +275,8 @@ We can now see and manage all the containers deployed on our various nodes under
 Lastly, we will click DEPLOY to launch the containers on all nodes, or on specific nodes (by selecting the label for each node).
 
 ![](images/img_2616.jpg){.thumbnail}
-You now have a Docker server orchestration system which allows you to easily and quickly provision applications and containers in your cluster via a GUI. If you'd like to test Docker, you can sign up for our Sailabove alpha here: https://labs.runabove.com/docker. We've also just put in place an Ubuntu 14.04 + Docker (pre-installed) image on VPS Cloud & Classic (available on all our VPSs except VPS Classic 1, which doesn't have enough disk space), which will enable you to obtain container-ready servers directly and benefit from the inherent advantages of the OVH VPS.
+You now have a Docker server orchestration system which allows you to easily and quickly provision applications and containers in your cluster via a GUI. 
 
+## Go further
+
+Join our community of users on <https://community.ovh.com/en/>.
