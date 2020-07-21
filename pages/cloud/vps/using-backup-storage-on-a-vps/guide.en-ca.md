@@ -121,12 +121,3 @@ Running  QEMU-GA            QEMU Guest Agent
 [Using automated backups on a VPS](https://docs.ovh.com/ca/en/vps/using-automated-backups-on-a-vps)
 
 Join our community of users on <https://community.ovh.com/en/>.
-
-
-
-## Go further
-
-[Using automated backups on a VPS](https://docs.ovh.com/ca/en/vps/using-automated-backups-on-a-vps)
-
-
-Join our community of users on <https://community.ovh.com/en/>.
