@@ -20,11 +20,11 @@ OpenVPN is a software giving you the possibility to create a Private Virtual Net
 
 To create your OpenVPN server, you will have to order a VPS. (If you already have a VPS, you can install the OpenVPN template via your OVHcloud control panel)
 
-![horizon](images/openvpn.png){.thumbnail}
+![horizon](images/OpenVPS.png){.thumbnail}
 
 Once your VPS is installed, you will receive an email with your credentials:
 
-![horizon](images/openvpncredent2.png){.thumbnail}
+![horizon](images/opencredent2.png){.thumbnail}
 
 Your VPN server is now ready.
 
