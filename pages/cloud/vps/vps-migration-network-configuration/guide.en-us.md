@@ -320,6 +320,10 @@ Manually edit your IP configuration, using the details you noted down from the i
 
 ![configure static IP](images/static-ip.png){.thumbnail}
 
-To configure a failover IP address, please refer to this documentation:
+Please refer to this documentation to [Configure a failover IP]({ovh_www}/public-cloud/configure_a_failover_ip)
+
+## Go further
 
 [Configure a failover IP]({ovh_www}/public-cloud/configure_a_failover_ip)
+
+Join our community of users on <https://community.ovh.com/en/>.
