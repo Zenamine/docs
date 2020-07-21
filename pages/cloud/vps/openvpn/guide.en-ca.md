@@ -1,9 +1,9 @@
 ---
-title: 'Déployer un serveur OpenVPN en un clic'
-description: 'Découvrez comment déployer un serveur OpenVPN en un clic avec les applications pré-installées sur VPS.'
+title: 'Deploying an OpenVPN server in a single click'
+description: 'How to deploy an OpenVPN server in a single click'
 slug: openvpn
-excerpt: 'Découvrez ici comment instancier un VPS avec l’application OpenVPN pré-installée.'
-section: 'Utilisation avancée'
+excerpt: 'How to deploy an OpenVPN server in a single click'
+section: 'Advanced usage'
 ---
 
 ## Objective
@@ -20,7 +20,7 @@ OpenVPN is a software giving you the possibility to create a Private Virtual Net
 
 To create your OpenVPN server, you will have to order a VPS. (If you already have a VPS, you can install the OpenVPN template via your OVHcloud control panel)
 
-![horizon](images/OpenVPS.png){.thumbnail}
+![horizon](images/OpenVPN.png){.thumbnail}
 
 Once your VPS is installed, you will receive an email with your credentials:
 
@@ -68,7 +68,7 @@ For distributions such as Ubuntu/Debian:
 sudo apt-get install openvpn
 ```
 
-You will have to download the cofiguraiton file `client.ovpn` here:
+You will have to download the configuration file `client.ovpn` here:
 ![horizon](images/client_ovpn.png){.thumbnail}
 
 **Launch of the OpenVPN client with a configuration file**
@@ -120,13 +120,13 @@ Sign-in with the credentials received in the email and accept the terms and cond
 
 ![horizon](images/openvpncredent.png){.thumbnail}
 
-You now have access to the control pannel:
+You now have access to the control panel:
 
 ![horizon](images/admin_panel.png){.thumbnail}
 
 
 ## Go further
 
-[Introduction to SSH](../getting-started-vps/)
+[Getting started with a VPS](../getting-started-vps/)
 
 Join our user community on <https://community.ovh.com/en/>.
