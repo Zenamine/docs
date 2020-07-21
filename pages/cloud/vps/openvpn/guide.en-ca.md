@@ -118,6 +118,8 @@ Go the URL inside the email and select `Admin`:
 
 Sign-in with the credentials received in the email and accept the terms and conditions.
 
+![horizon](images/openvpncredent.png){.thumbnail}
+
 You now have access to the control pannel:
 
 ![horizon](images/admin_panel.png){.thumbnail}
