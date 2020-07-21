@@ -6,7 +6,7 @@ section: Sauvegarde
 order: 1
 ---
 
-**Dernière mise à jour le 22/04/2020**
+**Dernière mise à jour le 21/07/2020**
 
 ## Objectif
 
