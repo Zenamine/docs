@@ -112,3 +112,10 @@ PS C:\Users\Administrator> Get-Service QEMU-GA
 Status   Name               DisplayName
 ------   ----               -----------
 Running  QEMU-GA            QEMU Guest Agent
+
+## Aller plus loin
+
+[Utiliser la sauvegarde automatique sur un VPS](https://docs.ovh.com/ca/fr/vps/autobackup-vps/)
+
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+
