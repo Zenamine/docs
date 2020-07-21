@@ -247,3 +247,7 @@ Enfin, nous allons cliquer sur DEPLOY pour lancer les containers sur tous les no
 ![](images/img_2616.jpg){.thumbnail}
 
 Vous avez maintenant un système d'orchestration de serveur Docker qui vous permet facilement et rapidement de provisionner des applications et containers dans votre cluster via un GUI.
+
+## Aller plus loin
+
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
