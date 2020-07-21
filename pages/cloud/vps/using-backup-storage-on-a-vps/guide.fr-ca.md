@@ -47,6 +47,7 @@ Une fois l'option activée, cliquez sur `...`{.action} à droite de l'option « 
 ![snapshotvps](images/snapshot_vps_step2.png){.thumbnail}
 
 Si vous êtes sûr de vouloir restaurer votre VPS à l'état du snapshot, cliquez sur `Restaurer le snapshot`{.action} et confirmez la restauration dans la fenêtre qui s'affiche alors.
+
 ### Bonnes pratiques pour la création d'un snapshot
 
 #### Configuration de l'agent QEMU sur un VPS
@@ -112,10 +113,10 @@ PS C:\Users\Administrator> Get-Service QEMU-GA
 Status   Name               DisplayName
 ------   ----               -----------
 Running  QEMU-GA            QEMU Guest Agent
+```
 
 ## Aller plus loin
 
 [Utiliser la sauvegarde automatique sur un VPS](https://docs.ovh.com/ca/fr/vps/autobackup-vps/)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
-
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
