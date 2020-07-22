@@ -14,7 +14,7 @@ This guide explains how to create one from OpenStack Horizon.
 
 ## Prerequisites
 
-- [Configure user access to Horizon](../platform/public-cloud/access_console_of_horizon_instance/guide.en-sg.md){.ref}.
+- [Configure user access to Horizon](../access_console_horizon){.ref}.
 
 
 

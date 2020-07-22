@@ -14,11 +14,7 @@ This guide explains how you can use this feature to upload your files to Object 
 
 ## Prerequisites
 
-<<<<<<< HEAD
-- [Prepare the environment to use the OpenStack API](../platform/public-cloud/prepare_the_environment_for_using_the_openstack_api/guide.en-ca.md){.ref} with the python-swiftclient client
-=======
-- [Prepare the environment to use the OpenStack API]({legacy}1851) with the python-swiftclient client
->>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
+- [Prepare the environment to use the OpenStack API](../prepare_the_environment_for_using_the_openstack_api){.ref} with the python-swiftclient client
 - Set OpenStack environment variables
 
 

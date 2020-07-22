@@ -17,11 +17,7 @@ Esta guía explica cómo implementar esta solución.
 Para seguir todos los pasos de esta guía, es necesario:
 
 
-<<<<<<< HEAD
-- [preparar el entorno para utilizar la API de OpenStack](../platform/public-cloud/prepare_the_environment_for_using_the_openstack_api/guide.es-us.md){.ref} con el cliente Swift;
-=======
-- [preparar el entorno para utilizar la API de OpenStack](https://docs.ovh.com/es/public-cloud/preparar_el_entorno_para_utilizar_la_api_de_openstack/) con el cliente Swift;
->>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
+- [preparar el entorno para utilizar la API de OpenStack](../preparar_el_entorno_para_utilizar_la_api_de_openstack){.ref} con el cliente Swift;
 - cargar las variables de entorno de OpenStack;
 - disponer de dos contenedores de objetos en dos datacenters diferentes.
 

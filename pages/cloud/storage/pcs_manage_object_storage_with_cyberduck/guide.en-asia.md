@@ -18,8 +18,8 @@ This guide will explain how to configure Cyberduck to manage your Object Storage
 
 ## Prerequisites
 
-- You must have access to Horizon:[Accessing the Horizon interface](../platform/public-cloud/access_console_of_horizon_instance/guide.en-asia.md){.ref}
-- You must have your project and user ID, which you can get by downloading the OpenRC file in the [Access and Security](../platform/public-cloud/access_and_security_in_horizon/guide.en-asia.md){.ref} menu in Horizon.
+- You must have access to Horizon:[Accessing the Horizon interface](../access_console_horizon){.ref}
+- You must have your project and user ID, which you can get by downloading the OpenRC file in the [Access and Security](../access_and_security_in_horizon){.ref} menu in Horizon.
 
 
 

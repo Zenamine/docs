@@ -15,11 +15,7 @@ Esta guía explica cómo crearlo desde el panel Horizon de OpenStack.
 
 ## Requisitos:
 
-<<<<<<< HEAD
-Para seguir todos los pasos de esta guía, es necesario [crear un acceso a Horizon](../platform/public-cloud/access_console_of_horizon_instance/guide.es-us.md){.ref} previamente.
-=======
-Para seguir todos los pasos de esta guía, es necesario [crear un acceso a Horizon](https://docs.ovh.com/es/public-cloud/crear_un_acceso_a_horizon/) previamente.
->>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
+Para seguir todos los pasos de esta guía, es necesario [crear un acceso a Horizon](../acceder_a_la_consola_de_una_instancia){.ref} previamente.
 
 
 ## 

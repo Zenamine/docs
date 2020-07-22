@@ -21,7 +21,7 @@ In this example, we use WinSCP but you can use any SFTP client. Configuration of
 
 
 ## OpenStack ID
-You can generate your OpenStack login & password using this [Guide](../platform/public-cloud/access_console_of_horizon_instance/guide.en-asia.md){.ref}
+You can generate your OpenStack login & password using this [Guide](../horizon){.ref}
 
 
 ## TenantName

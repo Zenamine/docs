@@ -13,7 +13,7 @@ This guide shows you how to configure a domain on your container.
 
 
 ### Prerequisites
-- [Have a storage space](../platform/public-cloud/add_storage_space/guide.en-us.md){.ref}
+- [Have a storage space](../add_storage_space){.ref}
 - A domain name
 
 

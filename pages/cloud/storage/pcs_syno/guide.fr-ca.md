@@ -15,13 +15,8 @@ Ce guide vous explique comment configurer DiskStation Manager 6.0 afin de synchr
 
 
 ### Prérequis
-<<<<<<< HEAD
-- [Créer un conteneur de stockage](../platform/public-cloud/add_storage_space/guide.en-ca.md){.ref}
-- [Créer un accès à Horizon](../platform/public-cloud/create_and_delete_a_user/guide.en-ca.md){.ref}
-=======
-- [Créer un conteneur de stockage](../create_container/guide.fr-fr.md){.ref}
-- [Créer un accès à Horizon](https://www.ovh.com/fr/publiccloud/guides/g1773.créer_un_acces_a_horizon){.external}
->>>>>>> 348b217a62abc0edf96abf42a4ea375f38eca1ce
+- [Créer un conteneur de stockage](../ajouter-des-espaces-de-stockage){.ref}
+- [Créer un accès à Horizon](../creation-et-suppression-dun-utilisateur-openstack){.ref}
 
 
 ## Configuration de DiskStation Manager 6.0
