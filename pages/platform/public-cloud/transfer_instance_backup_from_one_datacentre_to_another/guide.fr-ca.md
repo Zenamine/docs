@@ -1,40 +1,36 @@
 ---
-title: 'Transfer an instance backup from one datacentre to another'
-slug: transfer_instance_backup_from_one_datacentre_to_another
-excerpt: 'This guide will show you how to transfer an instance backup from one datacentre to another while preserving the configuration and state of the instance'
-legacy_guide_number: g1853
-section: 'Resource management'
+title: 'Transférer la sauvegarde d’une instance d’un datacenter à un autre'
+slug: transferer-la-sauvegarde-dune-instance-dun-datacentre-a-lautre
+section: 'Gestion via OpenStack'
+excerpt: 'Découvrez comment effectuer ce déplacement tout en préservant la configuration et l’état de l’instance.'
+order: 10
 ---
 
-**Last updated 1st April 2019**
+**Dernière mise à jour le 29 mars 2019**
 
-## Objective
+## Objectif
 
-A situation may arise where you need to move your [Public Cloud Instance]({ovh_www}/public-cloud/instances/){.external} from one datacentre to another, either because you would prefer to move to a newly available datacentre or because you want to migrate from OVHcloud Labs to Public Cloud. 
+Vous pouvez avoir besoin de déplacer votre instance Public Cloud d’un datacenter à un autre, soit parce que vous préférez utiliser un nouveau centre de données, soit parce que vous souhaitez migrer d’OVHcloud Labs vers Public Cloud.
 
-**This guide will show you how to transfer an Instance backup from one datacentre to another while preserving the configuration and state of the Instance.**
+**Découvrez comment transférer la sauvegarde d’une instance d’un datacenter à un autre, tout en préservant sa configuration et son état.**
 
-## Requirements
 
-Before following these steps, it's recommended that you first complete this guide:
+## Prérequis
 
-* [Prepare the environment to use the OpenStack API](../prepare_the_environment_for_using_the_openstack_api/){.external}
-
-You will also need the following:
-
-* a [Public Cloud Instance]({ovh_www}public-cloud/instances/){.external} in your OVHcloud account
-* administrative (root) access to your datacentre via SSH
+* Posséder une [instance Public Cloud](https://www.ovh.com/ca/fr/public-cloud/instances/){.external} dans votre compte OVHcloud.
+* Disposer d’un accès administrateur (root) à votre datacenter via SSH.
+* Lire le guide « [Préparer l’environnement pour utiliser l’API OpenStack](../preparer-lenvironnement-pour-utiliser-lapi-openstack/){.external} » (recommandé).
 
 > [!primary]
 >
-The commands in this guide are based on the OpenStack CLI, as opposed to the `NOVA` and `GLANCE` APIs.
+Les commandes de ce guide sont basées sur la CLI OpenStack, par opposition aux API `Nova` et `Glance`.
 >
 
-## Instructions
+## En pratique
 
-### Create a backup
+### Créer une sauvegarde
 
-First, establish an SSH connection to your datacentre and then run the following command to list your existing Instances:
+Tout d'abord, établissez une connexion SSH vers votre datacenter. Puis lancez la commande suivante pour lister vos instances existantes :
 
 ```
 #root@server:~$ openstack server list
@@ -46,64 +42,65 @@ First, establish an SSH connection to your datacentre and then run the following
 +--------------------------------------+-----------+--------+--------------------------------------------------+--------------+
 ```
 
-Next, run the following command to create a backup of your Instance:
+
+Exécutez alors la commande ci-dessous afin de créer une sauvegarde de votre instance :
 
 ```
 openstack server image create --name snap_server1 aa7115b3-83df-4375-b2ee-19339041dcfa
 ```
 
-### Download the backup
+### Télécharger la sauvegarde
 
-Next, run this command to list available Instances:
-
-```
-#root@server:~$ openstack image list
-+--------------------------------------+-----------------------------------------------+--------+
-| ID                                   | Name                                          | Status |
-+--------------------------------------+-----------------------------------------------+--------+
-| 825b785d-8a34-40f5-bdcd-0a3c3c350c5a | snap_server1                                 | active |
-| 3ff877dc-1a62-43e7-9655-daff37a0c355 | NVIDIA GPU Cloud (NGC)                        | active |
-| a14a7c1e-3ac5-4a61-9d36-1abc4ab4d5e8 | Centos 7                                      | active |
-| f720a16e-543b-42e5-af45-cc188ad2dd34 | Debian 8 - GitLab                             | active |
-| d282e7aa-332c-4dc7-90a9-d49641fa7a95 | CoreOS Stable                                 | active |
-| 2519f0fb-18cc-4915-9227-7754292b9713 | Ubuntu 16.04                                  | active |
-| b15789f8-2e2f-4f6c-935d-817567319627 | Windows Server 2012 R2 Standard - UEFI        | active |
-| ed2f327f-dbae-4f9e-9754-c677a1b76fa3 | Ubuntu 14.04                                  | active |
-| 9c9b3772-5320-414a-90bf-60307ff60436 | Debian 8 - Docker                             | active |
-```
-
-Now identify the Instance backup from the list:
+Lancez cette commande pour lister les instances disponibles :
 
 ```
+#root@server:~$ openstack image list 
++--------------------------------------+-----------------------------------------------+--------+ 
+| ID | Name | Status | 
++--------------------------------------+-----------------------------------------------+--------+ 
+| 825b785d-8a34-40f5-bdcd-0a3c3c350c5a | snap_server1 | active | 
+| 3ff877dc-1a62-43e7-9655-daff37a0c355 | NVIDIA GPU Cloud (NGC) | active | 
+| a14a7c1e-3ac5-4a61-9d36-1abc4ab4d5e8 | Centos 7 | active | 
+| f720a16e-543b-42e5-af45-cc188ad2dd34 | Debian 8 - GitLab | active | 
+| d282e7aa-332c-4dc7-90a9-d49641fa7a95 | CoreOS Stable | active | 
+| 2519f0fb-18cc-4915-9227-7754292b9713 | Ubuntu 16.04 | active | 
+| b15789f8-2e2f-4f6c-935d-817567319627 | Windows Server 2012 R2 Standard - UEFI | active | 
+| ed2f327f-dbae-4f9e-9754-c677a1b76fa3 | Ubuntu 14.04 | active | 
+| 9c9b3772-5320-414a-90bf-60307ff60436 | Debian 8 - Docker | active |
+```
+
+Identifiez maintenant la sauvegarde dans la liste :
+
+``` 
 | 825b785d-8a34-40f5-bdcd-0a3c3c350c5a | snap_server1 | qcow2 | bare | 1598029824 | active |
 ```
 
-Finally, run this command to download the backup:
+Enfin, exécutez cette commande pour télécharger la sauvegarde :
 
 ```
 #root@server:~$ openstack image save --file snap_server1.qcow 825b785d-8a34-40f5-bdcd-0a3c3c350c5a
 ```
 
-### Transfer the backup to another datacentre
+### Transférer la sauvegarde vers un autre datacenter
 
-To start the transfer process, you first need to load new environment variables.
+Pour démarrer le processus de transfert, vous devez d'abord charger de nouvelles variables d'environnement.
 
 > [!warning]
 >
-If you are transfering your backup to a datacentre within the same project, you will need to change the OS_REGION_NAME variable.
+> Si vous transférez votre sauvegarde vers un datacenter dans le même projet, il vous suffit de modifier la variable OS\_REGION\_NAME.
 >
 
-```
+``` 
 #root@server:~$ export OS_REGION_NAME=SBG1
 ```
 
-If you are transfering your backup to another project or account, you will have to reload the environment variables linked to that account using the following command:
+Si vous transférez votre sauvegarde vers un autre projet ou compte, vous devez recharger les variables d'environnement liées à ce compte en utilisant la commande suivante :
 
 ```
 #root@server:~$ source openrc.sh
 ```
 
-To transfer the backup to the new datacentre, use this command:
+Pour transférer la sauvegarde vers le nouveau datacenter, exécutez cette commande :
 
 ```
 #root@server:~$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
@@ -133,15 +130,16 @@ To transfer the backup to the new datacentre, use this command:
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
-### Create an Instance from your backup
+### Créer une instance à partir de votre sauvegarde
 
-To create an Instance from your backup, use the backup ID as the image with this command:
+Utilisez l'ID de sauvegarde comme image avec la commande suivante :
 
 ```
 #root@server:~$ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4f7179b758 --image 0a3f5901-2314-438a-a7af-ae984dcbce5c Server1_from_snap
 ```
 
-## Go further
+## Aller plus loin
 
-* Join our community of users on <https://community.ovh.com/en/>.
-* [Transfer a volume backup from one datacentre to another](../transfer_volume_backup_from_one_datacentre_to_another/){.external}
+[Transférer la sauvegarde d’un volume d’un datacentre a l’autre](../transferer-la-sauvegarde-dun-volume-dun-datacentre-a-lautre/){.external}.
+
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
