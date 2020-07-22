@@ -165,7 +165,7 @@ By default, no port needs to be specified.
 
 Your Vanilla Minecraft server is now installed on your VPS. 
 
-Please note that this installation guide should also work on a [dedicated server]({ovh_www}/dedicated-servers/){.external}. or an OVHcloud [Public Cloud] ({ovh_www}/public-cloud/){.external}. instance. With those services, you will enjoy better stability since the hardware is dedicated.
+Please note that this installation guide should also work on a [dedicated server]({ovh_www}/dedicated-servers/){.external}. or an OVHcloud [Public Cloud]({ovh_www}/public-cloud/){.external}. instance. With those services, you will enjoy better stability since the hardware is dedicated.
 
 Finally, for add-ons, mods and to personalize your Minecraft experience, please consult this official documentation <https://help.mojang.com/>. 
 
