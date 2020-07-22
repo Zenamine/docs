@@ -5,6 +5,8 @@ excerpt: 'Craft your own server and build your wold !'
 section: Tutorial
 ---
 
+**Last updated 2020/07/22**
+
 ## Objective
 
 Minecraft is successful sandbox video game. It needs to be hosted on a server if you wish to play in multiplayer.
